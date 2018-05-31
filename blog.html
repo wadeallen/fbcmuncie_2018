@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+  <title>React - Bootstrap Theme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" type="text/css" href="scss/bootstrap/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="dist/theme.min.css" />
+
+  <!-- javascript -->
+  <script src="dist/theme.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="navbar navbar-dark navbar-expand-lg" role="banner">
+    <div class="container no-override">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo-light.png" class="mr-2 img-fluid" />
+        React
+      </a>
+
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              Home Pages
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="index.html">Home 1 (Current)</a>
+              <a class="dropdown-item" href="index2.html">Home 2 (Slider)</a>
+              <a class="dropdown-item" href="index3.html">Home 3 (Off-canvas menu)</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              Showcase
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="features.html">Features</a>
+              <a class="dropdown-item" href="services.html">Services</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              Pricing
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="pricing.html">Pricing charts</a>
+              <a class="dropdown-item" href="charts.html">Comparison tables</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              More pages
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="aboutus.html">About us</a>
+              <a class="dropdown-item" href="contactus.html">Contact us</a>
+              <a class="dropdown-item" href="gallery.html">Gallery</a>
+              <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+              <a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a>
+              <a class="dropdown-item" href="invoice.html">Invoice page</a>
+              <a class="dropdown-item" href="timeline.html">Timeline Page</a>
+              <a class="dropdown-item" href="docs.html">API Documentation</a>
+              <a class="dropdown-item" href="support.html">Support</a>
+              <a class="dropdown-item" href="support-topic.html">Support Topic</a>
+              <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
+              <a class="dropdown-item" href="status.html">Status</a>
+              <a class="dropdown-item" href="signup.html">Sign Up & Sign In</a>
+              <a class="dropdown-item" href="signup-rotate.html">Sign Up Miscellaneous</a>
+              <a class="dropdown-item" href="404.html">404 Page</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown dropdown-extend">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              Components
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu dropdown-extend-menu" role="menu">
+              <div class="row">
+                <div class="col-md-3">
+                  <a class="dropdown-item" href="docs/alerts.html"><i class="ion-alert-circled"></i> Alerts</a>
+                  <a class="dropdown-item" href="docs/animations.html"><i class="ion-wand"></i> Animations</a>
+                  <a class="dropdown-item" href="docs/badges.html"><i class="ion-ios-pricetag-outline"></i> Badges</a>
+                  <a class="dropdown-item" href="docs/buttons.html"><i class="ion-ios-paperplane"></i> Buttons</a>
+                  <a class="dropdown-item" href="docs/button-groups.html"><i class="ion-ios-browsers"></i> Button groups</a>
+                  <a class="dropdown-item" href="docs/cards.html"><i class="ion-ios-albums-outline"></i> Cards</a>
+                </div>
+                <div class="col-md-3">
+                  <a class="dropdown-item" href="docs/carousel.html"><i class="ion-android-arrow-dropright-circle"></i> Carousel</a>
+                  <a class="dropdown-item" href="docs/accordion.html"><i class="ion-navicon"></i> Accordion</a>
+                  <a class="dropdown-item" href="docs/cta.html"><i class="ion-funnel"></i> Call to action</a>
+                  <a class="dropdown-item" href="docs/dropdowns.html"><i class="ion-arrow-down-b"></i> Dropdowns</a>
+                  <a class="dropdown-item" href="docs/forms.html"><i class="ion-clipboard"></i> Forms</a>
+                  <a class="dropdown-item" href="docs/input-groups.html"><i class="ion-toggle"></i> Input groups</a>
+                </div>
+                <div class="col-md-3">
+                  <a class="dropdown-item" href="docs/icons.html"><i class="ion-social-octocat"></i> Icons</a>
+                  <a class="dropdown-item" href="docs/list-groups.html"><i class="ion-ios-list-outline"></i> List groups</a>
+                  <a class="dropdown-item" href="docs/modals.html"><i class="ion-monitor"></i> Modals</a>
+                  <a class="dropdown-item" href="docs/navs.html"><i class="ion-navigate"></i> Navs</a>
+                  <a class="dropdown-item" href="docs/navbars.html"><i class="ion-navicon-round"></i> Navbars</a>
+                  <a class="dropdown-item" href="docs/plugins.html"><i class="ion-compose"></i> New plugins</a>
+                </div>
+                <div class="col-md-3">
+                  <a class="dropdown-item" href="docs/progress.html"><i class="ion-stats-bars d-inline-block" style="transform: rotate(90deg);"></i> Progress bars</a>
+                  <a class="dropdown-item" href="docs/stats-cards.html"><i class="ion-arrow-graph-up-right"></i> Stats cards</a>
+                  <a class="dropdown-item" href="docs/tables.html"><i class="ion-grid"></i> Tables</a>
+                  <a class="dropdown-item" href="docs/typography.html"><i class="ion-paintbrush"></i> Typography</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item active dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              Blog
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="blog.html">Blog</a>
+              <a class="dropdown-item" href="blog-cols.html">Blog cols</a>
+              <a class="dropdown-item" href="blog-timeline.html">Blog timeline</a>
+              <a class="dropdown-item" href="blogpost.html">Blog Post</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="docs/intro.html" class="nav-link nav-link--rounded">Docs</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-posts">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <div class="post">
+            <a href="blogpost.html" class="pic">
+              <img src="images/blogpost1.png" class="img-fluid" alt="blogpost" />
+            </a>
+
+            <div class="title">
+              <a href="blogpost.html">A brief history of climate science</a>
+            </div>
+            <div class="author">
+              <img src="images/testimonials/testimonial2.jpg" class="avatar" alt="author" />
+              Jessica Smith, October 03, 2013
+            </div>
+            <p class="intro">
+              By Ed Hawkins, University of Reading. Climate change is often seen as a recent phenomenon, but its roots are actually far older — the stuff that is currently happening is beyond my understanding.
+              <br />
+              Some people say design is about solving problems. Obviously designers solve problems but so do dentists. Design is about cultural invention.
+            </p>
+            <a href="blogpost.html" class="continue-reading">Continue reading this post</a>
+          </div>
+
+          <div class="post">
+            <div class="video">
+              <div class="iframe-wrapper">
+                <iframe src="https://player.vimeo.com/video/22439234" width="620" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class="title">
+              <a href="blogpost.html">Discover what is beyond our Solar System</a>
+            </div>
+            <div class="author">
+              <img src="images/testimonials/testimonial2.jpg" class="avatar" alt="author" />
+              Eric Hoffman, October 11, 2013
+            </div>
+            <p class="intro">
+              By Ed Hawkins, University of Reading. Climate change is often seen as a recent phenomenon, but its roots are actually far older — the stuff that is currently happening is beyond my understanding.
+              <br />
+              Some people say design is about solving problems. Obviously designers solve problems but so do dentists. Design is about cultural invention.
+            </p>
+            <a href="blogpost.html" class="continue-reading">Continue reading this post</a>
+          </div>
+
+          <div class="post">
+            <a href="blogpost.html" class="pic">
+              <img src="images/blogpost2.png" class="img-fluid" alt="blogpost" />
+            </a>
+
+            <div class="title">
+              <a href="blogpost.html">How to get really good at programming</a>
+            </div>
+            <div class="author">
+              <img src="images/testimonials/testimonial4.jpg" class="avatar" alt="author" />
+              Amanda Johnson, September 23, 2013
+            </div>
+            <p class="intro">
+              By Ed Hawkins, University of Reading. Climate change is often seen as a recent phenomenon, but its roots are actually far older — the stuff that is currently happening is beyond my understanding.
+            </p>
+            <a href="blogpost.html" class="continue-reading">Continue reading this post</a>
+          </div>
+
+          <div class="post">
+            <a href="blogpost.html" class="pic">
+              <img src="images/blogpost3.png" class="img-fluid" alt="blogpost" />
+            </a>
+
+            <div class="title">
+              <a href="blogpost.html">Get healthy riding a bicycle everyday</a>
+            </div>
+            <div class="author">
+              <img src="images/testimonials/testimonial3.jpg" class="avatar" alt="author" />
+              Benjamin Andrews, August 16, 2013
+            </div>
+            <p class="intro">
+              By Ed Hawkins, University of Reading. Climate change is often seen as a recent phenomenon, but its roots are actually far older — the stuff that is currently happening is beyond my understanding.
+              <br />
+              Some people say design is about solving problems. Obviously designers solve problems but so do dentists. Design is about cultural invention.
+            </p>
+            <a href="blogpost.html" class="continue-reading">Continue reading this post</a>
+          </div>
+
+          <div class="pages">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 sidebar">
+          <div class="search">
+            <form>
+              <span class="icomoon-search"></span>
+              <input type="text" name="q" placeholder="Search on blog..." />
+            </form>
+          </div>
+          <div class="updates">
+            <strong>
+              Free blog updates
+              <i class="fa fa-rss"></i>
+            </strong>
+            <p>
+              Never miss an update. 
+              Sign up  to receieve an email whenever we post something in the blog.
+            </p>
+          </div>
+          <div class="follow-tw">
+            <img src="images/twitterfollow.png" alt="follow-tw" />
+          </div>
+          <div class="best-hits">
+            <strong>Check out our best hits:</strong>
+            <a href="#">How to start a business</a>
+            <a href="#">How to sell online</a>
+            <a href="#">Climate change when needed</a>
+            <a href="#">Web development upstart</a>
+            <a href="#">Learn Rails in 30 days</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 menu">
+          <h3>Overview</h3>
+          <ul>
+            <li>
+              <a href="features.html">Features</a>
+            </li>
+            <li>
+              <a href="services.html">Services</a>
+            </li>
+            <li>
+              <a href="pricing.html">Pricing</a>
+            </li>
+            <li>
+              <a href="support.html">Support</a>
+            </li>
+            <li>
+              <a href="blog.html">Blog</a>
+            </li>
+            <li>
+              <a href="blog.html">Coming soon</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 menu">
+          <h3>Menu</h3>
+          <ul>
+            <li>
+              <a href="features.html">About us</a>
+            </li>
+            <li>
+              <a href="services.html">Contact us</a>
+            </li>
+            <li>
+              <a href="aboutus.html">Jobs</a>
+              <a href="aboutus.html" class="hiring">
+                We're hiring!
+              </a>
+            </li>
+            <li>
+              <a href="support.html">Portfolio</a>
+            </li>
+            <li>
+              <a href="blog.html">Status</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-2 menu">
+          <h3>Social</h3>
+          <ul>
+            <li>
+              <a href="features.html">Youtube</a>
+            </li>
+            <li>
+              <a href="services.html">Facebook</a>
+            </li>
+            <li>
+              <a href="pricing.html">Twitter</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 newsletter">
+          <div class="signup clearfix">
+            <p>
+              Sign up for the newsletter and we'll inform you of updates, offers and more.
+            </p>
+            <form>
+              <input type="text" name="email" class="form-control" placeholder="Your email address" />
+              <input type="submit" value="Sign up" />
+            </form>
+          </div>
+          <a href="#">
+            <img src="images/social/social-tw.png" alt="twitter" />
+          </a>
+          <a href="#">
+            <img src="images/social/social-dbl.png" alt="dribbble" />
+          </a>
+        </div>
+      </div>
+      <div class="credits">
+        <p>Copyright © 2019. React</p>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    $(function () {
+      $(".search input:text").focus(function () {
+        $(".icomoon-search").addClass("active");
+      });
+      $(".search input:text").blur(function () {
+        $(".icomoon-search").removeClass("active");
+      });
+    });
+  </script>
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+    // (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    // function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    // e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    // e.src='//www.google-analytics.com/analytics.js';
+    // r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    // ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+  </script>
+</body>
+</html>

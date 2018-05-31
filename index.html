@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+  <title>React - Bootstrap Theme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" type="text/css" href="scss/bootstrap/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="dist/theme.min.css" />
+
+  <!-- javascript -->
+  <script src="dist/theme.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="navbar navbar-dark bg-transparent navbar-expand-lg" role="banner">
+    <div class="container no-override">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo-light.png" class="mr-2 img-fluid" />
+        React
+      </a>
+
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              Home Pages
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="index.html">Home 1 (Current)</a>
+              <a class="dropdown-item" href="index2.html">Home 2 (Slider)</a>
+              <a class="dropdown-item" href="index3.html">Home 3 (Off-canvas menu)</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              Showcase
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="features.html">Features</a>
+              <a class="dropdown-item" href="services.html">Services</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              Pricing
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="pricing.html">Pricing charts</a>
+              <a class="dropdown-item" href="charts.html">Comparison tables</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              More pages
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="aboutus.html">About us</a>
+              <a class="dropdown-item" href="contactus.html">Contact us</a>
+              <a class="dropdown-item" href="gallery.html">Gallery</a>
+              <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+              <a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a>
+              <a class="dropdown-item" href="invoice.html">Invoice page</a>
+              <a class="dropdown-item" href="timeline.html">Timeline Page</a>
+              <a class="dropdown-item" href="docs.html">API Documentation</a>
+              <a class="dropdown-item" href="support.html">Support</a>
+              <a class="dropdown-item" href="support-topic.html">Support Topic</a>
+              <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
+              <a class="dropdown-item" href="status.html">Status</a>
+              <a class="dropdown-item" href="signup.html">Sign Up & Sign In</a>
+              <a class="dropdown-item" href="signup-rotate.html">Sign Up Miscellaneous</a>
+              <a class="dropdown-item" href="404.html">404 Page</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown dropdown-extend">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              Components
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu dropdown-extend-menu" role="menu">
+              <div class="row">
+                <div class="col-md-3">
+                  <a class="dropdown-item" href="docs/alerts.html"><i class="ion-alert-circled"></i> Alerts</a>
+                  <a class="dropdown-item" href="docs/animations.html"><i class="ion-wand"></i> Animations</a>
+                  <a class="dropdown-item" href="docs/badges.html"><i class="ion-ios-pricetag-outline"></i> Badges</a>
+                  <a class="dropdown-item" href="docs/buttons.html"><i class="ion-ios-paperplane"></i> Buttons</a>
+                  <a class="dropdown-item" href="docs/button-groups.html"><i class="ion-ios-browsers"></i> Button groups</a>
+                  <a class="dropdown-item" href="docs/cards.html"><i class="ion-ios-albums-outline"></i> Cards</a>
+                </div>
+                <div class="col-md-3">
+                  <a class="dropdown-item" href="docs/carousel.html"><i class="ion-android-arrow-dropright-circle"></i> Carousel</a>
+                  <a class="dropdown-item" href="docs/accordion.html"><i class="ion-navicon"></i> Accordion</a>
+                  <a class="dropdown-item" href="docs/cta.html"><i class="ion-funnel"></i> Call to action</a>
+                  <a class="dropdown-item" href="docs/dropdowns.html"><i class="ion-arrow-down-b"></i> Dropdowns</a>
+                  <a class="dropdown-item" href="docs/forms.html"><i class="ion-clipboard"></i> Forms</a>
+                  <a class="dropdown-item" href="docs/input-groups.html"><i class="ion-toggle"></i> Input groups</a>
+                </div>
+                <div class="col-md-3">
+                  <a class="dropdown-item" href="docs/icons.html"><i class="ion-social-octocat"></i> Icons</a>
+                  <a class="dropdown-item" href="docs/list-groups.html"><i class="ion-ios-list-outline"></i> List groups</a>
+                  <a class="dropdown-item" href="docs/modals.html"><i class="ion-monitor"></i> Modals</a>
+                  <a class="dropdown-item" href="docs/navs.html"><i class="ion-navigate"></i> Navs</a>
+                  <a class="dropdown-item" href="docs/navbars.html"><i class="ion-navicon-round"></i> Navbars</a>
+                  <a class="dropdown-item" href="docs/plugins.html"><i class="ion-compose"></i> New plugins</a>
+                </div>
+                <div class="col-md-3">
+                  <a class="dropdown-item" href="docs/progress.html"><i class="ion-stats-bars d-inline-block" style="transform: rotate(90deg);"></i> Progress bars</a>
+                  <a class="dropdown-item" href="docs/stats-cards.html"><i class="ion-arrow-graph-up-right"></i> Stats cards</a>
+                  <a class="dropdown-item" href="docs/tables.html"><i class="ion-grid"></i> Tables</a>
+                  <a class="dropdown-item" href="docs/typography.html"><i class="ion-paintbrush"></i> Typography</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              Blog
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="blog.html">Blog</a>
+              <a class="dropdown-item" href="blog-cols.html">Blog cols</a>
+              <a class="dropdown-item" href="blog-timeline.html">Blog timeline</a>
+              <a class="dropdown-item" href="blogpost.html">Blog Post</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="docs/intro.html" class="nav-link nav-link--rounded">Docs</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="index-hero">
+    <div class="container">
+      <h1 class="hero-text customFadeInDown">
+        Build your own site with the best interfaces
+        for your web & mobile apps
+      </h1>
+      <p class="sub-text customFadeInDown">
+        Whether you want to fill this paragraph with some text like I'm doing right now, this place is perfect to describe some features or anything you want - React has a complete solution for you.
+      </p>
+      <div class="cta customFadeInDown">
+        <a href="features.html" class="button-outline">See the tour</a>
+        <a href="signup.html" class="btn-shadow btn-shadow-success btn-shadow-lg">Sign up free</a>
+      </div>
+      <img src="images/index-device.png" class="device d-none d-lg-block">
+    </div>
+  </div>
+
+  <div class="features-section">
+    <div class="container">
+      <div class="header text-center">
+        <h2>Need an easy way to customize your site?</h2>
+        <p class="mt-3">React is perfect for novice developers and experts alike.</p>
+      </div>
+      <div class="feature">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="info">
+              <h4 class="mt-lg-5">You don't need to have great technical experience to use your product.</h4>
+              <p>
+                Whether you want to fill this paragraph with some text like I'm doing right now, this place
+                is perfect to describe some features or anything you want - React has a complete solution for you.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="images/feature4.png" class="img-fluid" alt="feature1" />
+          </div>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="feature">
+        <div class="row">
+          <div class="col-md-6 order-md-2">
+            <div class="info">
+              <h4 class="mt-lg-4">A fully featured well design template that works.</h4>
+              <p>
+                You have complete control over the look & feel of your website, we offer the best quality so you
+                take your site up and running in no time.
+              </p>
+              <p>
+                Write some text here to explain the features of your site or application, it
+                has lots of uses.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 order-md-1 text-center">
+            <img src="images/feature2.png" class="img-fluid" alt="feature2" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pricing-dark-section">
+    <div class="container">
+      <div class="header text-center">
+        <h3>Free trial. No contract. Cancel when you want.</h3>
+        <p>All plans include a 7-day free trial</p>
+      </div>
+
+      <div class="charts">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="chart">
+              <div class="quantity">
+                <span class="dollar">$</span>
+                <span class="price">29</span>
+                <span class="period">/month</span>
+              </div>
+              <div class="plan-name">Freelance</div>
+              <div class="specs">
+                <div class="spec">
+                  <span class="variable">5</span>
+                  team members
+                </div>
+                <div class="spec">
+                  <span class="variable">Digital</span>
+                  recurring billing
+                </div>
+                <div class="spec">
+                  <span class="variable">Virtual</span>
+                  online terminal
+                </div>
+                <div class="spec">
+                  <span class="variable">10</span>
+                  total products
+                </div>
+                <div class="spec">
+                  <span class="variable">1.0%</span>
+                  Transaction fee
+                </div>
+              </div>
+              <a class="btn-signup button-clear" href="signup.html">
+                <span>Start free trial</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="chart chart--featured">
+              <div class="popular">Most popular</div>
+              <div class="quantity">
+                <span class="dollar">$</span>
+                <span class="price">79</span>
+                <span class="period">/month</span>
+              </div>
+              <div class="plan-name">Profesional</div>
+              <div class="specs">
+                <div class="spec">
+                  <span class="variable">15</span>
+                  team members
+                </div>
+                <div class="spec">
+                  <span class="variable">Digital</span>
+                  recurring billing
+                </div>
+                <div class="spec">
+                  <span class="variable">Virtual</span>
+                  online terminal
+                </div>
+                <div class="spec">
+                  <span class="variable">15</span>
+                  total products
+                </div>
+                <div class="spec">
+                  <span class="variable">0.5%</span>
+                  Transaction fee
+                </div>
+              </div>
+              <a class="btn-signup button-clear" href="signup.html">
+                <span>Start free trial</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="chart">
+              <div class="quantity">
+                <span class="dollar">$</span>
+                <span class="price">119</span>
+                <span class="period">/month</span>
+              </div>
+              <div class="plan-name">Premium</div>
+              <div class="specs">
+                <div class="spec">
+                  <span class="variable">Unlimited</span>
+                  team members
+                </div>
+                <div class="spec">
+                  <span class="variable">Digital</span>
+                  recurring billing
+                </div>
+                <div class="spec">
+                  <span class="variable">Virtual</span>
+                  online terminal
+                </div>
+                <div class="spec">
+                  <span class="variable">25</span>
+                  total products
+                </div>
+                <div class="spec">
+                  <span class="variable">No</span>
+                  Transaction fee
+                </div>
+              </div>
+              <a class="btn-signup button-clear" href="signup.html">
+                <span>Start free trial</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slider-section">
+    <div class="container">
+      <h3 class="header">Includes all pages that a complete theme should have</h3>
+
+      <div class="slide-wrapper">
+        <div class="slideshow">
+          <div class="btn-nav prev"></div>
+          <div class="btn-nav next"></div>
+          <div class="slide active">
+            <img src="images/slider/slide3.png" alt="slide3" />
+          </div>
+          <div class="slide">
+            <img src="images/slider/slide4.png" alt="slide4" />
+          </div>
+          <div class="slide">
+            <img src="images/slider/slide1.png" alt="slide1" />
+          </div>
+          <div class="slide">
+            <img src="images/slider/slide5.png" alt="slide5" />
+          </div>
+          <div class="slide">
+            <img src="images/slider/slide2.png" alt="slide2" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="testimonials-section">
+    <div class="container">
+      <h3 class="header">
+        Trusted by a lot businesses around the world:
+      </h3>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="testimonial">
+            <div class="quote">
+              I am just quoting some stuff but I am seriously happy about this product. Has a lot of powerful
+              features and is so easy to set up, I could stay customizing it day and night, it's just so much fun!
+              <div class="arrow-down">
+                <div class="arrow"></div>
+                <div class="arrow-border"></div>
+              </div>
+            </div>
+            <div class="author">
+              <img src="images/testimonials/testimonial3.jpg" class="pic" alt="testimonial3" />
+              <div class="name">John McClane</div>
+              <div class="company">Microsoft</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="testimonial">
+            <div class="quote">
+              This thing is one of those tools that everybody should be using. I really like it and with this ease to use, you can kickstart your projects and apps and just focus on your business!
+              <div class="arrow-down">
+                <div class="arrow"></div>
+                <div class="arrow-border"></div>
+              </div>
+            </div>
+            <div class="author">
+              <img src="images/testimonials/testimonial2.jpg" class="pic" alt="testimonial2" />
+              <div class="name">Carl Jones</div>
+              <div class="company">Pixar Co.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-section">
+    <p>
+      Start your free 14 day trial! 
+    </p>
+    <a href="signup.html">
+      Sign up for free
+    </a>
+  </div>
+
+  <div class="clients-section">
+    <div class="container">
+      <h3>Our Customers</h3>
+      <p>
+        These are some of our customers who have helped us by using our product.
+      </p>
+      <div class="logos">
+        <img src="images/logos/google.png">
+        <img src="images/logos/facebook.png">
+        <img src="images/logos/apple.png">
+        <img src="images/logos/stripe.png">
+        <img src="images/logos/yahoo.png">
+      </div>
+    </div>
+  </div>
+
+  <div class="footer footer--light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 menu">
+          <h3>Overview</h3>
+          <ul>
+            <li>
+              <a href="features.html">Features</a>
+            </li>
+            <li>
+              <a href="services.html">Services</a>
+            </li>
+            <li>
+              <a href="pricing.html">Pricing</a>
+            </li>
+            <li>
+              <a href="support.html">Support</a>
+            </li>
+            <li>
+              <a href="blog.html">Blog</a>
+            </li>
+            <li>
+              <a href="blog.html">Coming soon</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 menu">
+          <h3>Menu</h3>
+          <ul>
+            <li>
+              <a href="features.html">About us</a>
+            </li>
+            <li>
+              <a href="services.html">Contact us</a>
+            </li>
+            <li>
+              <a href="aboutus.html">Jobs</a>
+              <a href="aboutus.html" class="hiring">
+                We're hiring!
+              </a>
+            </li>
+            <li>
+              <a href="support.html">Portfolio</a>
+            </li>
+            <li>
+              <a href="blog.html">Status</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-2 menu">
+          <h3>Social</h3>
+          <ul>
+            <li>
+              <a href="features.html">Youtube</a>
+            </li>
+            <li>
+              <a href="services.html">Facebook</a>
+            </li>
+            <li>
+              <a href="pricing.html">Twitter</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 newsletter">
+          <div class="signup clearfix">
+            <p>
+              Sign up for the newsletter and we'll inform you of updates, offers and more.
+            </p>
+            <form>
+              <input type="text" name="email" class="form-control" placeholder="Your email address" />
+              <input type="submit" value="Sign up" />
+            </form>
+          </div>
+          <a href="#">
+            <img src="images/social/social-tw.png" alt="twitter" />
+          </a>
+          <a href="#">
+            <img src="images/social/social-dbl.png" alt="dribbble" />
+          </a>
+        </div>
+      </div>
+      <div class="credits">
+        <p>Copyright © 2019. React</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

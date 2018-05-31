@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+  <title>React - Bootstrap Theme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" type="text/css" href="scss/bootstrap/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="dist/theme.min.css" />
+
+  <!-- javascript -->
+  <script src="dist/theme.min.js"></script>
+  <script src="js/vendor/flipclock/base.js"></script>
+  <script src="js/vendor/flipclock/flipclock.js"></script>
+  <script src="js/vendor/flipclock/faces/hourlycounter.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="coming-soon-page">
+    <div class="skins-nav">
+      <a href="#" class="skin light active">
+        <span class="text">Light</span>
+        <i class="ion-checkmark"></i>
+      </a>
+      <a href="#" class="skin dark">
+        <span class="text">Dark</span>
+        <i class="ion-checkmark"></i>
+      </a>
+    </div>
+
+    <div class="container">
+      <div class="info">
+        <h1>
+          <a href="index.html">
+            <img src="images/logo-dark.png" class="logo-dark img-fluid" />
+            <img src="images/logo-light.png" class="logo-light img-fluid" />
+            React
+          </a>
+        </h1>
+        <h3>We're launching very soon.</h3>
+      </div>
+
+      
+      <div id="countdown">
+        <div id="clock"></div>
+      </div>
+
+      
+      <form class="form-inline justify-content-center" role="form">
+        <input type="email" class="form-control" placeholder="Enter your email">
+        <button type="submit" class="btn-shadow btn-shadow-primary ml-3">Notify me</button>
+      </form>
+
+      <div class="social">
+        <a class="ion" href="#"><span class="ion-social-twitter"></span></a>
+        <a class="ion" href="#"><span class="ion-social-facebook"></span></a>
+        <div class="tm">Follow up @ReactTheme</div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    $(function () {
+      var clock;
+      var currentDate = new Date();
+
+      // Set some date in the future.
+      var futureDate  = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate(), currentDate.getHours() + 20);
+
+      // Calculate the difference in seconds between the future and current date
+      var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+
+      // Instantiate a coutdown FlipClock
+      clock = $('#clock').FlipClock(diff, {
+        countdown: true
+      });
+
+
+      // skin changer
+      var $skins = $(".skins-nav .skin");
+      $skins.click(function (e) {
+        e.preventDefault();
+
+        $skins.removeClass("active");
+        $(this).addClass("active");
+
+        if ($(this).hasClass("light")) {
+          $(".coming-soon-page").removeClass("dark");
+        } else {
+          $(".coming-soon-page").addClass("dark");
+        }
+      });
+    });
+  </script>
+</body>
+</html>

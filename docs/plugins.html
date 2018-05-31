@@ -1,0 +1,273 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>React - Theme docs</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+  <link rel="shortcut icon" href="../images/favicon.ico">
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" type="text/css" href="../scss/bootstrap/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="../dist/theme.min.css" />
+
+  <!-- javascript -->
+  <script src="../dist/theme.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+</head>
+<body>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 8]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div class="navbar navbar-light bg-transparent navbar-expand-lg" role="banner" id="navbar">
+    <div class="container no-override">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../images/logo-dark.png" class="mr-2 img-fluid" />
+        React
+      </a>
+
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              Home Pages
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../index.html">Home 1 (Current)</a>
+              <a class="dropdown-item" href="../index2.html">Home 2 (Slider)</a>
+              <a class="dropdown-item" href="../index3.html">Home 3 (Off-canvas menu)</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              Showcase
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../features.html">Features</a>
+              <a class="dropdown-item" href="../services.html">Services</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              Pricing
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../pricing.html">Pricing charts</a>
+              <a class="dropdown-item" href="../charts.html">Comparison tables</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              More pages
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../aboutus.html">About us</a>
+              <a class="dropdown-item" href="../contactus.html">Contact us</a>
+              <a class="dropdown-item" href="../gallery.html">Gallery</a>
+              <a class="dropdown-item" href="../portfolio.html">Portfolio</a>
+              <a class="dropdown-item" href="../portfolio-item.html">Portfolio Item</a>
+              <a class="dropdown-item" href="../invoice.html">Invoice page</a>
+              <a class="dropdown-item" href="../timeline.html">Timeline Page</a>
+              <a class="dropdown-item" href="../docs.html">API Documentation</a>
+              <a class="dropdown-item" href="../support.html">Support</a>
+              <a class="dropdown-item" href="../support-topic.html">Support Topic</a>
+              <a class="dropdown-item" href="../coming-soon.html">Coming Soon</a>
+              <a class="dropdown-item" href="../status.html">Status</a>
+              <a class="dropdown-item" href="../signup.html">Sign Up & Sign In</a>
+              <a class="dropdown-item" href="../signup-rotate.html">Sign Up Miscellaneous</a>
+              <a class="dropdown-item" href="../404.html">404 Page</a>
+            </div>
+          </li>
+          <li class="nav-item active dropdown dropdown-extend">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              Components
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu dropdown-extend-menu" role="menu">
+              <div class="row">
+                <div class="col-md-3">
+                  <a class="dropdown-item" href="alerts.html"><i class="ion-alert-circled"></i> Alerts</a>
+                  <a class="dropdown-item" href="animations.html"><i class="ion-wand"></i> Animations</a>
+                  <a class="dropdown-item" href="badges.html"><i class="ion-ios-pricetag-outline"></i> Badges</a>
+                  <a class="dropdown-item" href="buttons.html"><i class="ion-ios-paperplane"></i> Buttons</a>
+                  <a class="dropdown-item" href="button-groups.html"><i class="ion-ios-browsers"></i> Button groups</a>
+                  <a class="dropdown-item" href="cards.html"><i class="ion-ios-albums-outline"></i> Cards</a>
+                </div>
+                <div class="col-md-3">
+                  <a class="dropdown-item" href="carousel.html"><i class="ion-android-arrow-dropright-circle"></i> Carousel</a>
+                  <a class="dropdown-item" href="accordion.html"><i class="ion-navicon"></i> Accordion</a>
+                  <a class="dropdown-item" href="cta.html"><i class="ion-funnel"></i> Call to action</a>
+                  <a class="dropdown-item" href="dropdowns.html"><i class="ion-arrow-down-b"></i> Dropdowns</a>
+                  <a class="dropdown-item" href="forms.html"><i class="ion-clipboard"></i> Forms</a>
+                  <a class="dropdown-item" href="input-groups.html"><i class="ion-toggle"></i> Input groups</a>
+                </div>
+                <div class="col-md-3">
+                  <a class="dropdown-item" href="icons.html"><i class="ion-social-octocat"></i> Icons</a>
+                  <a class="dropdown-item" href="list-groups.html"><i class="ion-ios-list-outline"></i> List groups</a>
+                  <a class="dropdown-item" href="modals.html"><i class="ion-monitor"></i> Modals</a>
+                  <a class="dropdown-item" href="navs.html"><i class="ion-navigate"></i> Navs</a>
+                  <a class="dropdown-item" href="navbars.html"><i class="ion-navicon-round"></i> Navbars</a>
+                  <a class="dropdown-item" href="plugins.html"><i class="ion-compose"></i> New plugins</a>
+                </div>
+                <div class="col-md-3">
+                  <a class="dropdown-item" href="progress.html"><i class="ion-stats-bars d-inline-block" style="transform: rotate(90deg);"></i> Progress bars</a>
+                  <a class="dropdown-item" href="stats-cards.html"><i class="ion-arrow-graph-up-right"></i> Stats cards</a>
+                  <a class="dropdown-item" href="tables.html"><i class="ion-grid"></i> Tables</a>
+                  <a class="dropdown-item" href="typography.html"><i class="ion-paintbrush"></i> Typography</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              Blog
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="../blog.html">Blog</a>
+              <a class="dropdown-item" href="../blog-cols.html">Blog cols</a>
+              <a class="dropdown-item" href="../blog-timeline.html">Blog timeline</a>
+              <a class="dropdown-item" href="../blogpost.html">Blog Post</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="intro.html" class="nav-link nav-link--rounded">Docs</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="theme-docs-header">
+    <section class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10">
+          <h1>Plugins</h1>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="theme-docs-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <h4 class="mt-4">
+            Zoomerang
+          </h4>
+          <p class="mt-4">
+            This zoom plugin made by <a href="https://github.com/yyx990803/zoomerang" target="_blank">yyx990803</a> provides image zoom functionality. Add a <code>data-trigger="zoomerang"</code> attribute to any image you want to make zoomable.
+          </p>
+
+          <div class="panel">
+            <div class="panel-body">
+              <img src="../images/unsplash/photo-1467659226669-a1360d97be2d.jpg" style="width: 250px;" data-trigger="zoomerang">
+            </div>
+            <div class="panel-footer">
+              <pre>
+<code class="html">
+&lt;img data-trigger="zoomerang" src="images/image1.jpg" style="width: 250px;"&gt;</code></pre>
+            </div>
+          </div>
+
+          <br>
+
+          <h4 class="mt-3">
+            Smooth page scrolling
+          </h4>
+          <p class="mt-4">
+            The smooth scrolling feature is a nice way to let your users navigate your content while keeping track of where they are on the page.
+          </p>
+          <p>
+            You only need a link that users will click with the class <code>.scroll</code> to enable the functionality:
+          </p>
+          <p>
+            Example: <a href="#navbar" class="scroll">Go to top</a>
+          </p>
+          <pre>
+<code class="html" style="line-height: 10px;">
+&lt;a href="#intro" class="scroll"&gt;Intro&lt;/a&gt;</code></pre>
+          <p>
+            And a section anywhere in the page with the same unique ID that you want to navigate to:
+          </p>
+          <pre>
+<code class="html" style="line-height: 10px;">
+&lt;div id="intro""&gt;...&lt;/div&gt;</code></pre>
+        </div>
+
+        <div class="col-md-3">
+          <!-- @include('./sidebar.html', {"page": "icons"}) -->
+          <nav class="nav-sidebar">
+            <ul class="nav flex-column">
+              <li><a href="intro.html" class="nav-link">Intro</a></li>
+              <li><a href="alerts.html" class="nav-link">Alerts</a></li>
+              <li><a href="animations.html" class="nav-link">Animations</a></li>
+              <li><a href="badges.html" class="nav-link">Badges</a></li>
+              <li><a href="buttons.html" class="nav-link">Buttons</a></li>
+              <li><a href="button-groups.html" class="nav-link">Button groups</a></li>
+              <li><a href="cards.html" class="nav-link">Cards</a></li>
+              <li><a href="carousel.html" class="nav-link">Carousel</a></li>
+              <li><a href="accordion.html" class="nav-link">Accordion</a></li>
+              <li><a href="cta.html" class="nav-link">Call to actions</a></li>
+              <li><a href="dropdowns.html" class="nav-link">Dropdowns</a></li>
+              <li><a href="forms.html" class="nav-link">Forms</a></li>
+              <li><a href="grid-system.html" class="nav-link">Grid system</a></li>
+              <li><a href="input-groups.html" class="nav-link">Input groups</a></li>
+              <li><a href="icons.html" class="nav-link">Icons</a></li>
+              <li><a href="list-groups.html" class="nav-link">List groups</a></li>
+              <li><a href="modals.html" class="nav-link">Modals</a></li>
+              <li><a href="navs.html" class="nav-link">Navs</a></li>
+              <li><a href="navbars.html" class="nav-link">Navbars</a></li>
+              <li><a href="plugins.html" class="nav-link active">Plugins</a></li>
+              <li><a href="progress.html" class="nav-link">Progress bars</a></li>
+              <li><a href="stats-cards.html" class="nav-link">Stats cards</a></li>
+              <li><a href="tables.html" class="nav-link">Tables</a></li>
+              <li><a href="typography.html" class="nav-link">Typography</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    $(function () {
+      // code highlighter
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+
+      // slider effects
+      var $options_slider_effect = $('[data-option="slider-effect"]');
+      var $slider = $('#spacial-slider');
+
+      $options_slider_effect.click(function (e) {
+        e.preventDefault();
+        $options_slider_effect.removeClass('active');
+        $(this).addClass('active');
+
+        $slider.removeClass("fxSideSwing fxSoftScale fxPressAway fxPushReveal fxVGrowth fxArchiveMe fxLetMeIn fxFortuneWheel fxSwipe fxSnapIn fxStickIt fxSlideBehind fxSoftPulse fxCliffDiving")
+        .addClass($(this).data("class"));
+
+        window.navigate_slider("next");
+      })
+    })
+  </script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+  <title>React - Bootstrap Theme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" type="text/css" href="scss/bootstrap/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="dist/theme.min.css" />
+
+  <!-- javascript -->
+  <script src="dist/theme.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body class="signup-rotate">
+  <div class="container">
+    <div class="header">
+      <a href="index.html" class="logo">
+        <img src="images/logo-dark.png" class="mr-2 mb-1 img-fluid" />
+        React
+      </a>
+      <h4>Rotate the forms!</h4>
+    </div>
+    <div class="rotate-container">
+      <div class="wrappers">
+        <div class="wrapper front clearfix">
+          <div class="formy">
+            <div class="row">
+              <div class="col-md-12">
+                <form role="form">
+                  <div class="form-group">
+                    <label for="name">Your name</label>
+                    <input type="text" class="form-control" id="name" />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" />
+                  </div>
+                  <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" />
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" name="terms"> You have read & agree to the 
+                      <a href="#">Terms of service</a>.
+                    </label>
+                  </div>
+                  <div class="text-center mt-4">
+                    <input type="submit" class="submit btn-block btn-shadow btn-shadow-info" value="Create account">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="wrapper back clearfix">
+          <div class="formy">
+            <div class="row">
+              <div class="col-md-12">
+                <form role="form">
+                  <h4>Log in to your account</h4>
+                  <div class="form-group">
+                    <label for="email2">Email address</label>
+                    <input type="email" class="form-control" id="email2" />
+                  </div>
+                  <div class="form-group">
+                    <label for="password2">Password</label>
+                    <input type="password" class="form-control" id="password2" />
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" name="remember"> Remember me
+                    </label>
+                  </div>
+                  <div class="text-center mt-4">
+                    <input type="submit" class="submit btn-block btn-shadow btn-shadow-info" value="Sign in">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="change-view active">
+        Already have an account?
+        <a href="#" data-toggle="popover" data-placement="top" data-content="Click here!" data-trigger="manual">Sign in here</a>
+      </div>
+      <div class="change-view">
+        Don't have an account?
+        <a href="#">Create one here</a>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    $(function () {
+      // this makes the forms rotate back and forth using the class .flipped
+      var $btns = $(".change-view");
+      var $wrappers = $(".wrappers");
+      $btns.click(function (e) {
+        e.preventDefault();
+
+        $wrappers.toggleClass("flipped");
+        $btns.removeClass("active");
+
+        if ($wrappers.hasClass("flipped")) {
+          $btns.eq(1).addClass("active");
+
+          setTimeout(function () {
+            $wrappers.addClass("flipped-ended");
+          }, 350);
+        } else {
+          $btns.eq(0).addClass("active");
+
+          setTimeout(function () {
+            $wrappers.removeClass("flipped-ended");
+          }, 350);
+        }
+      });
+
+      // initializing popover for demonstration only, you can remove it!
+      $(".change-view a").popover();
+      $(".change-view a").popover('show');
+    });
+  </script>
+</body>
+</html>

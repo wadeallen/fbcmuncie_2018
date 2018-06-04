@@ -95,7 +95,7 @@ body {
 
 /* navbar dark */
 .navbar-dark {
-  background-color: #282F37 !important;
+  background-color: #32283d !important;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
 
   @include transition(all .4s);
@@ -108,8 +108,14 @@ body {
     font-size: 25px;
     letter-spacing: .5px;
     color: #fff;
+    font-family: 'Philosopher', sans-serif;
 
     @include transition(color .2s linear);
+  }
+
+  .navbar-brand span {
+       color: #b7b0aa;
+       font-family: 'Poppins', sans-serif;
   }
   
   .dropdown-menu {
@@ -224,7 +230,7 @@ body {
 }
 
 .footer {
-  background: #3c4554;
+  background: #734c43;
   margin-top: 120px;
   padding-top: 60px;
   padding-bottom: 30px;

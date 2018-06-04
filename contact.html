@@ -1,0 +1,158 @@
+---
+title: Contact Us
+layout: default
+---
+
+  <div class="contact-us-map">
+    <div class="container">
+      <div class="location d-none d-md-block">
+        <h5>{{ site.title }}</h5>
+        <p>{{ site.address }}</p>
+      </div>
+    </div>
+    <div id="map"></div>
+  </div>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlYNNs7VBO71qiKFMNiD0R9sd8hOt0wD4"></script>
+
+
+  <div class="contact-us-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 message">
+          <h3>Send us a message</h3>
+          <p>
+            You can contact us with anything related to {{ site.title }}. <br/> We'll get in touch with you as soon as possible.
+          </p>
+          <form role="form" id="contact-form" method="post">
+            <div class="form-group">
+              <label for="name">Your name</label>
+              <input type="text" name="name" class="form-control" id="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" name="email" class="form-control" id="email" />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="text" name="phone" class="form-control" id="phone" />
+            </div>
+            <div class="form-group">
+              <label for="message">Your message</label>
+              <textarea name="message" class="form-control" id="message" rows="6"></textarea>
+            </div>
+            <div class="submit">
+              <input type="submit" class="button button-small" value="Email us" />
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-4 contact">
+          <div class="address">
+            <h3>Our Address</h3>
+            <p>
+              {{ site.address}}
+            </p>
+          </div>
+          <div class="phone">
+            <h3>By Phone</h3>
+            <p>
+              {{ site.phone }}
+            </p>
+          </div>
+          <div class="social">
+            <a href="#" class="fb"><img src="images/social/fb.png" alt="facebook" /></a>
+            <a href="#" class="tw"><img src="images/social/tw.png" alt="twitter" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script type="text/javascript">
+    $(function () {
+      // Google maps
+      var mapLocation = new google.maps.LatLng(40.191763,-85.383775);
+
+      map = new GMaps({
+        streetViewControl : false,
+        overviewMapControl: false,
+        mapTypeControl: false,
+        panControl : false,
+        scrollwheel: false,
+        center: mapLocation,
+        el: '#map',
+        zoom: 14,
+        styles: [
+        {
+          "featureType":"landscape",
+          "stylers":[
+          {"saturation":-100},
+          {"lightness":65},
+          {"visibility":"on"}
+          ]
+        },
+        {
+          "featureType":"poi",
+          "stylers":[
+          {"saturation":-100},
+          {"lightness":51},
+          {"visibility":"simplified"}
+          ]
+        },
+        {
+          "featureType":"road.highway",
+          "stylers":[
+          {"saturation":-100},
+          {"visibility":"simplified"}
+          ]
+        },
+        {
+          "featureType":"road.arterial",
+          "stylers":[
+          {"saturation":-100},
+          {"lightness":30},
+          {"visibility":"on"}
+          ]
+        },
+        {
+          "featureType":"road.local",
+          "stylers":[
+          {"saturation":-100},
+          {"lightness":40},
+          {"visibility":"on"}
+          ]
+        },
+        {
+          "featureType":"transit",
+          "stylers":[
+          {"saturation":-100},
+          {"visibility":"simplified"}
+          ]
+        },
+        {
+          "featureType":"administrative.province",
+          "stylers":[
+          {"visibility":"off"}
+          ]
+        },
+        {
+          "featureType":"water",
+          "elementType":"labels",
+          "stylers":[
+          {"visibility":"on"},
+          {"lightness":-25},
+          {"saturation":-100}
+          ]
+        }
+        ]
+      });
+
+      map.addMarker({
+        position: mapLocation,
+        icon: 'images/map-icon.png'
+      });
+
+    });
+  </script>
+

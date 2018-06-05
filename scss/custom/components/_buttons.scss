@@ -129,7 +129,7 @@
   }
 
   &.btn-shadow-primary {
-    background: linear-gradient(#2083fe, #1d7bf0);
+    background: $secondary-color;
   }
 
   &.btn-shadow-dark {
@@ -137,7 +137,7 @@
   }
 
   &.btn-shadow-info {
-    background: #8484a4;
+    background: $secondary-color;
   }
 
   &.btn-shadow-warning {

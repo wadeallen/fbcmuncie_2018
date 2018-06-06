@@ -1,0 +1,53 @@
+---
+layout: null
+permalink: /podcast/fbcmuncie.xml
+---
+
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+<channel>
+
+<itunes:new-feed-url>http://fbcmuncie.org/podcast/fbcmuncie.xml</itunes:new-feed-url>
+<title>First Baptist Church Muncie Indiana</title>
+<description>Sermons from First Baptist Church Muncie Indiana</description>
+<link>http://fbcmuncie.org</link>
+<language>en-us</language>
+<copyright>Copyright 2018</copyright>
+<lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+<pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+<docs>http://fbcmuncie.org</docs>
+<webMaster>wade@fbcmuncie.org (Wade Allen)</webMaster>
+<itunes:author>Wade Allen</itunes:author>
+<itunes:subtitle>Sermons from First Baptist Church Muncie Indiana</itunes:subtitle>
+<itunes:summary>This podcast includes sermons from First Baptist Church in Muncie, Indiana.</itunes:summary>
+<itunes:owner>
+       <itunes:name>Wade Allen</itunes:name>
+       <itunes:email>wade@fbcmuncie.org</itunes:email>
+</itunes:owner>
+<itunes:explicit>No</itunes:explicit>
+<itunes:image href="http://fbcmuncie.org/images/fbc_podcast_logo.png"/>
+<itunes:category text="Religion &amp; Spirituality">
+     <itunes:category text="Christianity"/>
+</itunes:category>
+
+{% for post in site.categories.video %}
+<item>
+
+<title>{{ post.title }}</title>
+<link>http://{{ site.url }}{{ post.url }}</link>
+<guid>http://audio.fbcmuncie.org/{{ post.date | date: "%Y-%m-%d" }}.mp3</guid>
+<description>{{ post.content | xml_escape | truncate:250 }}</description>
+<enclosure url="http://audio.fbcmuncie.org/{{ post.date | date: "%Y-%m-%d" }}.mp3" length="{{ post.length }}" type="audio/mpeg"/>
+<category>Sermons</category>
+<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+<itunes:author>{{ post.author }}</itunes:author>
+<itunes:explicit>No</itunes:explicit>
+<itunes:subtitle>{{ post.content | xml_escape | truncate:250 }}</itunes:subtitle>
+<itunes:summary>{{ post.content | xml_escape | truncate:250 }}</itunes:summary>
+<itunes:duration>{{ post.duration }}</itunes:duration>
+<itunes:keywords>church, sermon</itunes:keywords>
+</item>
+{% endfor %}
+</channel>
+</rss>

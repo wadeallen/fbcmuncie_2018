@@ -1,0 +1,14 @@
+---
+author: Wade Allen
+title: Beginning Mark
+date: 2018-01-02
+category: blog
+layout: blog
+comments: yes
+---
+ 
+The new year is an exciting time. It feels like we have a fresh start in many ways. I am particularly excited about our new sermon series. We will be in the Gospel of Mark for the next thirteen weeks (until Easter). We begin this week in chapter 1. We will be moving fairly quickly through the book. My hope is that we would hear the story of Jesus in a fresh way. Each time we read the ins and outs of the story, we gain new insights into the life and mission of Jesus. My prayer is that this would happen through this series. 
+
+As we prepare for Sunday morning, let me encourage you to read the first 20 verses of chapter 1. I look forward to studying this book with you as we begin 2018.
+ 
+>(Mark 1:1-20 NIV) The beginning of the good news about Jesus the Messiah, the Son of God, as it is written in Isaiah the prophet: “I will send my messenger ahead of you, who will prepare your way”— “a voice of one calling in the wilderness, ‘Prepare the way for the Lord, make straight paths for him.’” And so John the Baptist appeared in the wilderness, preaching a baptism of repentance for the forgiveness of sins. The whole Judean countryside and all the people of Jerusalem went out to him. Confessing their sins, they were baptized by him in the Jordan River. John wore clothing made of camel’s hair, with a leather belt around his waist, and he ate locusts and wild honey. And this was his message: “After me comes the one more powerful than I, the straps of whose sandals I am not worthy to stoop down and untie. I baptize you with water, but he will baptize you with the Holy Spirit.” At that time Jesus came from Nazareth in Galilee and was baptized by John in the Jordan. Just as Jesus was coming up out of the water, he saw heaven being torn open and the Spirit descending on him like a dove. And a voice came from heaven: “You are my Son, whom I love; with you I am well pleased.” At once the Spirit sent him out into the wilderness, and he was in the wilderness forty days, being tempted by Satan. He was with the wild animals, and angels attended him. After John was put in prison, Jesus went into Galilee, proclaiming the good news of God. “The time has come,” he said. “The kingdom of God has come near. Repent and believe the good news!” As Jesus walked beside the Sea of Galilee, he saw Simon and his brother Andrew casting a net into the lake, for they were fishermen. “Come, follow me,” Jesus said, “and I will send you out to fish for people.” At once they left their nets and followed him. When he had gone a little farther, he saw James son of Zebedee and his brother John in a boat, preparing their nets. Without delay he called them, and they left their father Zebedee in the boat with the hired men and followed him.

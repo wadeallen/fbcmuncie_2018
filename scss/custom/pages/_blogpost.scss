@@ -1,12 +1,12 @@
 .blog-post-hero {
-  height: 500px;
+  height: 300px;
   background-image: url('#{$imagesPath}/church-header.jpg');
   background-size: cover;
   background-position: center center;
   position: relative;
 
   @media(max-width: 991px) {
-    height: 400px;
+    height: 200px;
   }
 
   &:after {
@@ -26,7 +26,7 @@
   }
 
   h1 {
-    padding-top: 190px;
+    padding-top: 100px;
     text-align: center;
     color: #fff;
     font-size: 35px;
@@ -34,7 +34,7 @@
     text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
 
     @media(max-width: 991px) {
-      padding-top: 150px;
+      padding-top: 100px;
     }
 
     @media(max-width: 767px) {

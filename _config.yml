@@ -7,3 +7,32 @@ flickr: fbcmuncie
 youtube: fbcmunciesermons
 phone: 765-284-7749
 address: 309 E. Adams Street</br> Muncie, Indiana 47305
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+defaults:
+  - 
+    scope:
+     path: ""
+     type: "people"
+    values:
+     layout: "people"
+
+collections:
+  questions:
+  people:
+      output: true
+      permalink: /:title
+  worship:
+  visitors:
+  news:
+  quotes:
+
+permalink: /:categories/:year/:month/:day/:title

@@ -47,45 +47,22 @@ layout: default
     </div>
     <div class="services">
       <div class="row">
+         {% for post in site.categories.video limit:3  %}
         <div class="col-md-4">
           <div class="service">
             <div class="pic">
-              <img src="https://img.youtube.com/vi/oA_b__XAsUQ/mqdefault.jpg" class="img-fluid" alt="services1" />
+              <img src="https://img.youtube.com/vi/{{ post.video_url }}/mqdefault.jpg" class="img-fluid" alt="services1" />
             </div>
             <div class="info">
-              <strong>First Things First</strong>
+              <strong>{{ post.title }}</strong>
               <p>
-               May 27, 2018
+                {% assign author = site.people | where: 'name', post.author | first %}
+               <a href="/{{ author.name | slugify }}">{{ post.author }}</a> on {{ post.date | date: "%B %d" }}
              </p>
            </div>
          </div>
        </div>
-       <div class="col-md-4">
-        <div class="service">
-          <div class="pic">
-            <img src="https://img.youtube.com/vi/oA_b__XAsUQ/mqdefault.jpg" class="img-fluid" alt="services2" />
-          </div>
-          <div class="info">
-            <strong>Insights & Reports</strong>
-            <p>
-              You can work with international customers right out of the box while staying in your country.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="service">
-          <div class="pic">
-            <img src="https://img.youtube.com/vi/oA_b__XAsUQ/mqdefault.jpg" class="img-fluid" alt="services3" />
-          </div>
-          <div class="info">
-            <strong>Location Services</strong>
-            <p>
-              You can work with international customers right out of the box while staying in your country.
-            </p>
-          </div>
-        </div>
-      </div>
+       {% endfor %}
     </div>
   </div>
 </div>

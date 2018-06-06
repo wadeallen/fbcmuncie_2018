@@ -167,6 +167,15 @@
           margin-top: 15px;
           line-height: 22px;
         }
+
+        .series-thumb {
+          max-width: 60px;
+          border-radius: 50px;
+          position: absolute;
+          left: -75px;
+          top: -15px;
+          border: 1px solid #e0e0e0;
+        }
       }
     }
   }

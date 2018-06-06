@@ -1,0 +1,40 @@
+---
+title: Worship
+permalink: worship
+layout: default
+---
+
+  <div class="blog-cols-header">
+    <div class="container">
+      <h1>
+        Coming Up in Worship at First Baptist Church Muncie
+      </h1>
+    </div>
+  </div>
+
+    <div class="blog-cols-wrapper">
+    <div class="container">
+    	{% for sunday in site.worship %}
+    	{% assign author = site.people | where: 'name', sunday.author | first %}
+      <div class="post">
+        <div class="post-wrapper">
+          {% capture picture-file %}images/sermon/{{ sunday.date | date: "%Y-%m-%d" }}.jpg{% endcapture %}
+          <div class="post-bg" style="background-image: url('{{ picture-file }}');">
+          </div>
+          <div class="post-intro">
+            <div class="post-title">
+              {{ sunday.title }}
+            </div>
+            <div class="post-min-read">
+              {{ sunday.date | date: "%B %d" }}
+            </div>
+            <p class="post-description">
+              {{ sunday.scripture }}</br>{% if author.name %}<a href="/{{ author.name | slugify }}">{{ author.name }}</a>{% else %}{{ sunday.author }}{% endif %}
+            </p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+

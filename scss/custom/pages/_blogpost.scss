@@ -29,17 +29,17 @@
     padding-top: 100px;
     text-align: center;
     color: #fff;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 46px;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
 
     @media(max-width: 991px) {
-      padding-top: 100px;
+      padding-top: 50px;
     }
 
     @media(max-width: 767px) {
-      font-size: 28px;
-      line-height: 35px;
+      font-size: 25px;
+      line-height: 32px;
     }
   }
 }

@@ -38,7 +38,7 @@ layout: default
       </div>
       <div class="best-hits">
         <strong>Most Recent Sermons:</strong>
-{% for post in site.categories.video limit:5  %}
+{% for post in site.categories.video limit:3  %}
         <a href="{{ post.url }}">{{ post.title }}</a>
 {% endfor %}
       </div>

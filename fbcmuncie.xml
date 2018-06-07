@@ -14,7 +14,7 @@ permalink: /podcast/fbcmuncie.xml
 <link>http://fbcmuncie.org</link>
 <language>en-us</language>
 <copyright>Copyright 2018</copyright>
-<lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+<lastBuildDate>{{ site.time | date: "%a, %d %b %Y 12:00:00 %z" }}</lastBuildDate>
 <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
 <docs>http://fbcmuncie.org</docs>
 <webMaster>wade@fbcmuncie.org (Wade Allen)</webMaster>

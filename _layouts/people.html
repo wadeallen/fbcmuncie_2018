@@ -2,56 +2,98 @@
 layout: default
 ---
 
-  <div class="portfolio-showcase">
-    <div class="container">
-      <div class="header">
-        <h3>Our Portfolio</h3>
-        <p>The best selection of our clients and projects we've worked on.</p>
-      </div>
-      <div class="project">
-        <h3>iOS Video Application</h3>
-        <div class="screen">
-          <img src="images/portfolio1.png" class="img-fluid" alt="portfolio1" />
-        </div>
-        <p class="description">
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-        </p>
-        <div class="divider"></div>
-        <div class="visit">
-          <a class="btn-shadow btn-shadow-primary" href="portfolio-item.html">
-            Visit Project Website
-          </a>
-        </div>
-      </div>
-      <div class="project">
-        <h3>Designed with the whole company in mind</h3>
-        <div class="screen">
-          <img src="images/portfolio2.png" class="img-fluid" alt="portfolio2" />
-        </div>
-        <p class="description">
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-        </p>
-        <div class="divider"></div>
-        <div class="visit">
-          <a class="btn-shadow btn-shadow-primary" href="portfolio-item.html">
-            Visit Project Website
-          </a>
-        </div>
-      </div>
-      <div class="project">
-        <h3>Complete device setup development</h3>
-        <div class="screen">
-          <img src="images/portfolio3.png" class="img-fluid" alt="portfolio3" />
-        </div>
-        <p class="description">
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-        </p>
-        <div class="divider"></div>
-        <div class="visit">
-          <a class="btn-shadow btn-shadow-primary" href="portfolio-item.html">
-            Visit Project Website
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="features-tabs-section" style="margin-top: 100px;">
+	<div class="container">
+		<div class="header">
+			<h3>{{ page.prefix }} {{ page.name }}</h3>
+			<p>{{ page.position }}</p>
+		</div>
+
+		<div class="tabs-wrapper">
+			<div class="tab-content">
+				<div class="tab-pane fade show active" id="home">
+					<div class="row">
+						<div class="col-lg-6 order-lg-2 image">
+							<img src="/images/people/{{ page.name | slugify }}.jpg" class="img-fluid" alt="{{ page.name }}" onError="this.onerror=null;this.src='/images/people/blank.jpg';">
+						</div>
+						<div class="col-lg-6 order-lg-1 info">
+
+							{{ content }}
+
+							{% if page.facebook %}
+							<a href="https://www.facebook.com/{{ page.facebook }}"><i class="fa fa-facebook fa-2x"></i></a>
+							{% endif %}
+							{% if page.twitter %}
+							<a href="https://twitter.com/{{ page.twitter }}"><i class="fa fa-twitter fa-2x"></i></a>
+							{% endif %}
+							{% if page.linkedin %}
+							<a href="https://www.linkedin.com/in/{{ page.linkedin }}"><i class="fa fa-linkedin fa-2x" ></i></a>
+							{% endif %}
+
+							{% assign page-author = page.name %}
+							{% assign worship-schedule = (site.worship | where: "author" , page-author ) %}
+							{% if worship-schedule == empty %}
+							<p>{{ page.name }} is not scheduled to preach at First Baptist Church at this time.</p>
+							{% endif %}
+							{% for sunday in worship-schedule limit: 1 %}
+							<p>{{ page.name }} will preach next on </br>{{ sunday.date | date: "%A, %B %-d" }} ({{ sunday.title }}, {{ sunday.scripture }}).</p>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="social">
+					<div class="row">
+						<div class="col-lg-6 order-lg-2 image">
+							<img src="/images/people/{{ page.name | slugify }}.jpg" class="img-fluid" alt="{{ page.name }}" onError="this.onerror=null;this.src='/images/people/blank.jpg';">
+						</div>
+						<div class="col-lg-6 order-lg-1 info">
+							<h4>Social Media for {{ page.prefix }} {{ page.name }}</h4>
+
+							{% if page.facebook %}
+							<a href="https://www.facebook.com/{{ page.facebook }}"><i class="fa fa-facebook fa-3x"></i></a>
+							{% endif %}
+							{% if page.twitter %}
+							<a href="https://twitter.com/{{ page.twitter }}"><i class="fa fa-twitter fa-3x"></i></a>
+							{% endif %}
+							{% if page.linkedin %}
+							<a href="https://www.linkedin.com/in/{{ page.linkedin }}"><i class="fa fa-linkedin fa-3x" ></i></a>
+							{% endif %}
+
+						</div>
+					</div>        
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="services-grid-section services-grid-section--border">
+	<div class="container">
+		<div class="header">
+			<h3>Other Sermons by {{ page.name }}</h3>
+		</div>
+		<div class="services">
+			<div class="row">
+				{% assign author-links = (site.posts | where: "author" , page-author | where: "layout", "sermon" ) %}
+				{% if author-links == empty %}
+				<p>There are no posts for {{ page.name }}</p>
+				{% endif %}
+				{% for post in author-links limit: 3 %}
+				<div class="col-md-4">
+					<div class="service">
+						<div class="pic">
+							<a href="{{post.url}}"><img src="https://img.youtube.com/vi/{{ post.video_url }}/mqdefault.jpg" class="img-fluid" alt="services1" /></a>
+						</div>
+						<div class="info">
+							<a href="{{post.url}}"><strong>{{ post.title }}</strong></a>
+							<p>
+								{{ post.date | date: "%B %d, %Y" }}
+							</p>
+						</div>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>

@@ -2,56 +2,52 @@
 layout: default
 ---
 
-  <div class="portfolio-showcase">
-    <div class="container">
-      <div class="header">
-        <h3>Our Portfolio</h3>
-        <p>The best selection of our clients and projects we've worked on.</p>
+
+<div class="blog-posts">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9">
+
+       <div class="post">
+        <div class="video">
+          <div class="iframe-wrapper">
+            <iframe width="620" height="350" src="http://www.youtube.com/embed/{{page.video_url}}?showinfo=1" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="title">
+          <a href="blogpost.html">{{ page.title }}</a>
+        </div>
+        {% assign author = site.people | where: 'name', page.author | first %}
+        <div class="author">
+          <img src="images/testimonials/testimonial2.jpg" class="avatar" alt="author" />
+          <a href="/{{ author.name | slugify }}">{{ page.author }}</a>, {{ page.date | date: "%B %d, %Y" }}
+        </div>
+        <div class="intro">{{ content }}</div>
       </div>
-      <div class="project">
-        <h3>iOS Video Application</h3>
-        <div class="screen">
-          <img src="images/portfolio1.png" class="img-fluid" alt="portfolio1" />
-        </div>
-        <p class="description">
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+    </div>
+
+    <div class="col-lg-3 sidebar">
+      <div class="updates">
+        <strong>
+          Free blog updates
+          <i class="fa fa-rss"></i>
+        </strong>
+        <p>
+          Never miss an update. 
+          Sign up  to receieve an email whenever we post something in the blog.
         </p>
-        <div class="divider"></div>
-        <div class="visit">
-          <a class="btn-shadow btn-shadow-primary" href="portfolio-item.html">
-            Visit Project Website
-          </a>
-        </div>
       </div>
-      <div class="project">
-        <h3>Designed with the whole company in mind</h3>
-        <div class="screen">
-          <img src="images/portfolio2.png" class="img-fluid" alt="portfolio2" />
-        </div>
-        <p class="description">
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-        </p>
-        <div class="divider"></div>
-        <div class="visit">
-          <a class="btn-shadow btn-shadow-primary" href="portfolio-item.html">
-            Visit Project Website
-          </a>
-        </div>
+      <div class="follow-tw">
+        <img src="images/twitterfollow.png" alt="follow-tw" />
       </div>
-      <div class="project">
-        <h3>Complete device setup development</h3>
-        <div class="screen">
-          <img src="images/portfolio3.png" class="img-fluid" alt="portfolio3" />
-        </div>
-        <p class="description">
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-        </p>
-        <div class="divider"></div>
-        <div class="visit">
-          <a class="btn-shadow btn-shadow-primary" href="portfolio-item.html">
-            Visit Project Website
-          </a>
-        </div>
+      <div class="best-hits">
+        <strong>Check out our best hits:</strong>
+        <a href="#">How to start a business</a>
+        <a href="#">How to sell online</a>
+        <a href="#">Climate change when needed</a>
+        <a href="#">Web development upstart</a>
+        <a href="#">Learn Rails in 30 days</a>
       </div>
     </div>
   </div>
+</div>

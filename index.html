@@ -6,13 +6,13 @@ layout: default
 
 <!-- Banner -->
 
-  <div class="blog-post-hero">
-    <div class="container">
-      <h1 class="animated customFadeInUp">
-        A Spirit-led people gathered to equip each other to be God's presence in our community
-      </h1>
-    </div>
+<div class="blog-post-hero">
+  <div class="container">
+    <h1 class="animated customFadeInUp">
+      A Spirit-led people gathered to equip each other to be God's presence in our community
+    </h1>
   </div>
+</div>
 
 <!-- Welcome -->
 
@@ -29,32 +29,31 @@ layout: default
 </div>
 
 
-
 <!-- Sermons -->
-<div class="services-grid-section services-grid-section--border">
+
+<div class="services-grid-section">
   <div class="container">
     <div class="header">
       <h3>Watch Sermons Online</h3>
     </div>
     <div class="services">
       <div class="row">
-         {% for post in site.categories.video limit:3  %}
+       {% for post in site.categories.video limit:3  %}
         <div class="col-md-4">
           <div class="service">
             <div class="pic">
-             <a href="{{ post.url }}"><img src="https://img.youtube.com/vi/{{ post.video_url }}/mqdefault.jpg" class="img-fluid" alt="services1" /></a>
+           <a href="{{ post.url }}"><img src="https://img.youtube.com/vi/{{ post.video_url }}/mqdefault.jpg" class="img-fluid" alt="services1" /></a>
             </div>
-            <div class="info">
-              <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
-              <p>
-                {% assign author = site.people | where: 'name', post.author | first %}
-               <a href="/{{ author.name | slugify }}">{{ post.author }}</a> on {{ post.date | date: "%B %d" }}
-             </p>
-           </div>
-         </div>
-       </div>
-       {% endfor %}
+        <div class="info">
+          <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+          <p>
+            {% assign author = site.people | where: 'name', post.author | first %}
+            <a href="/{{ author.name | slugify }}">{{ post.author }}</a> on {{ post.date | date: "%B %d" }}
+          </p>
+        </div>
+      </div>
     </div>
+    {% endfor %}
   </div>
 </div>
-
+</div>

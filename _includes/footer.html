@@ -7,6 +7,9 @@
       <p>
         9:15 AM (Traditional), 10:45 AM (Contemporary)
       </p>
+      {% for sunday in site.worship limit:1 %}
+      <p>{{ sunday.author }} will be preaching this week ({{ sunday.date | date: "%B %d" }}) {% if sunday.scripture != "No Scripture Chosen Yet" %} from {{ sunday.scripture }}{% endif %}</p>
+      {% endfor %}
       <a href="/worship">Worship Schedule</a>
     </div>
   </div>
@@ -20,19 +23,19 @@
           <h3>Links</h3>
           <ul>
             <li>
-              <a href="features.html">Weddings</a>
+              <a href="/wedding">Weddings</a>
             </li>
             <li>
-              <a href="services.html">Worship Gatherings</a>
+              <a href="/worship">Worship Gatherings</a>
             </li>
             <li>
-              <a href="pricing.html">Bible Study</a>
+              <a href="#">Bible Study</a>
             </li>
             <li>
-              <a href="support.html">Youth</a>
+              <a href="/youth">Youth</a>
             </li>
             <li>
-              <a href="blog.html">Children</a>
+              <a href="/children">Children</a>
             </li>
           </ul>
         </div>
@@ -40,13 +43,13 @@
           <h3>About</h3>
           <ul>
             <li>
-              <a href="about">About</a>
+              <a href="/about">About</a>
             </li>
             <li>
-              <a href="pastors">Pastors</a>
+              <a href="/pastors">Pastors</a>
             </li>
             <li>
-              <a href="history">History</a>
+              <a href="/history">History</a>
             </li>
           </ul>
         </div>
@@ -54,16 +57,16 @@
           <h3>Media</h3>
           <ul>
             <li>
-              <a href="features.html">Sermon Videos</a>
+              <a href="/video">Sermon Videos</a>
             </li>
             <li>
-              <a href="services.html">Blogs</a>
+              <a href="/blog">Blog</a>
             </li>
             <li>
-              <a href="support.html">Podcast</a>
+              <a href="/podcast/fbcmuncie.xml">Podcast</a>
             </li>
             <li>
-              <a href="support.html">Newsletter</a>
+              <a href="/visitor">Newsletter</a>
             </li>
           </ul>
         </div>
@@ -71,13 +74,16 @@
           <h3>Social</h3>
           <ul>
             <li>
-              <a href="features.html"><i class="fa fa-youtube fa-fw"></i>Youtube</a>
+              <a href="https://www.youtube.com/user/fbcmunciesermons"><i class="fa fa-youtube fa-fw"></i>Youtube</a>
             </li>
             <li>
-              <a href="services.html"><i class="fa fa-facebook fa-fw"></i>Facebook</a>
+              <a href="https://www.facebook.com/firstbaptistmuncie"><i class="fa fa-facebook fa-fw"></i>Facebook</a>
             </li>
             <li>
-              <a href="pricing.html"><i class="fa fa-twitter fa-fw"></i>Twitter</a>
+              <a href="https://twitter.com/fbcmuncie"><i class="fa fa-twitter fa-fw"></i>Twitter</a>
+            </li>
+             <li>
+              <a href="https://www.flickr.com/photos/fbcmuncie"><i class="fa fa-camera fa-fw"></i>Photos</a>
             </li>
           </ul>
         </div>

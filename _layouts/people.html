@@ -20,18 +20,19 @@ layout: default
 
 							{{ content }}
 
-							{% if page.facebook %}
-							<a href="https://www.facebook.com/{{ page.facebook }}"><i class="fa fa-facebook fa-2x"></i></a>
-							{% endif %}
+
 							{% if page.twitter %}
 							<a href="https://twitter.com/{{ page.twitter }}"><i class="fa fa-twitter fa-2x"></i></a>
 							{% endif %}
 							{% if page.linkedin %}
 							<a href="https://www.linkedin.com/in/{{ page.linkedin }}"><i class="fa fa-linkedin fa-2x" ></i></a>
 							{% endif %}
+							{% if page.facebook %}
+							<a href="https://www.facebook.com/{{ page.facebook }}"><i class="fa fa-facebook fa-2x"></i></a>
+							{% endif %}
 
 							{% assign page-author = page.name %}
-							{% assign worship-schedule = (site.worship | where: "author" , page-author ) %}
+							{% assign worship-schedule = site.worship | where: "author" , page-author  %}
 							{% if worship-schedule == empty %}
 							<p>{{ page.name }} is not scheduled to preach at First Baptist Church at this time.</p>
 							{% endif %}
@@ -54,7 +55,7 @@ layout: default
 		</div>
 		<div class="services">
 			<div class="row">
-				{% assign author-links = (site.posts | where: "author" , page-author | where: "layout", "sermon" ) %}
+				{% assign author-links = site.posts | where: "author" , page-author | where: "layout", "sermon"  %}
 				{% if author-links == empty %}
 				<p>There are no posts for {{ page.name }}</p>
 				{% endif %}

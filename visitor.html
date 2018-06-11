@@ -1,0 +1,35 @@
+---
+title: Visitors
+layout: default
+permalink: visitor
+---
+
+  <div class="portfolio-showcase">
+    <div class="container">
+      <div class="header">
+        <h3>Visitors</h3>
+        <p>The monthly newsletter at {{ site.title }}.</p>
+      </div>
+
+      <table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Month</th>
+      <th>Download</th>
+    </tr>
+  </thead>
+  <tbody>
+  	{% for visitor in site.visitors reversed %}
+    <tr>
+      <td>{{ visitor.year }}</td>
+      <td>{{ visitor.month }}</td>
+      <td><a href="http://visitor.fbcmuncie.org/visitor_{{visitor.year}}-{{visitor.m-number}}.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-2x"></i></a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+    
+
+  </div>
+</div>

@@ -40,7 +40,7 @@ permalink: /podcast/fbcmuncie.xml
 <description>{{ post.content | xml_escape | truncate:250 }}</description>
 <enclosure url="http://audio.fbcmuncie.org/{{ post.date | date: "%Y-%m-%d" }}.mp3" length="{{ post.length }}" type="audio/mpeg"/>
 <category>Sermons</category>
-<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+<pubDate>{{ post.date | date: "%a, %d %b %Y 12:00:00 EST" }}</pubDate>
 <itunes:author>{{ post.author }}</itunes:author>
 <itunes:explicit>No</itunes:explicit>
 <itunes:subtitle>{{ post.content | xml_escape | truncate:250 }}</itunes:subtitle>

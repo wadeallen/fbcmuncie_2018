@@ -1,0 +1,60 @@
+---
+title: Weddings
+layout: default
+permalink: weddings
+---
+
+<div class="about-us-slider">
+	<div class="container">
+		<div class="header">
+			<h3>Weddings at First Baptist</h3>
+			<p>
+				First Baptist is a great place to get married. Its beautiful Gothic architecture makes it one of Muncie’s most beautiful churches.
+			</p>
+			<p>
+				For more information on availability, please contact Christy Allen, Wedding Coordinator, at 765-717-5229.
+			</p>
+		</div>
+		<div class="flexslider">
+			<ul class="slides">
+				<li>
+					<img src="/images/weddings/001.png" alt="wedding" />
+				</li>
+				<li>
+					<img src="/images/weddings/004.png" alt="wedding" />
+				</li>
+				<li>
+					<img src="/images/weddings/005.png" alt="wedding" />
+				</li>
+				<li>
+					<img src="/images/weddings/007.png" alt="wedding" />
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="signup-cta">
+	<div class="container">
+		<div class="wrapper clearfix">
+			<h4>To reserve your date, you will need to mail the contract, the information sheet and a deposit to:</h4>
+			<div class="address">
+				{{ site.name }}<br>
+				Attention: Christy Allen<br>
+				{{ site.address }}
+			</div>
+			<a href="/forms/wedding-contract-2017.pdf" class="btn-shadow btn-shadow-info btn-shadow-lg mt-4">Download Wedding Packet</a>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+	$(function() {
+		$('.flexslider').flexslider({
+			directionNav: true,
+			slideshowSpeed: 4000
+		});
+		$('[data-toggle="tooltip"]').tooltip();
+	});
+</script>

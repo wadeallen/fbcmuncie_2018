@@ -2,56 +2,27 @@
 layout: default
 ---
 
-  <div class="portfolio-showcase">
-    <div class="container">
-      <div class="header">
-        <h3>Our Portfolio</h3>
-        <p>The best selection of our clients and projects we've worked on.</p>
-      </div>
-      <div class="project">
-        <h3>iOS Video Application</h3>
-        <div class="screen">
-          <img src="images/portfolio1.png" class="img-fluid" alt="portfolio1" />
+<div class="blog-posts">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9">
+
+       <div class="post">
+        <div class="title">
+          <a href="blogpost.html">{{ page.title }}</a>
         </div>
-        <p class="description">
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-        </p>
-        <div class="divider"></div>
-        <div class="visit">
-          <a class="btn-shadow btn-shadow-primary" href="portfolio-item.html">
-            Visit Project Website
-          </a>
+        {% assign author = site.people | where: 'name', page.author | first %}
+        <div class="author">
+          <img src="/images/people/{{ author.name | slugify }}.jpg" class="avatar" alt="author" />
+          <a href="/{{ author.name | slugify }}">{{ page.author }}</a>, {{ page.date | date: "%B %d, %Y" }}
         </div>
-      </div>
-      <div class="project">
-        <h3>Designed with the whole company in mind</h3>
-        <div class="screen">
-          <img src="images/portfolio2.png" class="img-fluid" alt="portfolio2" />
-        </div>
-        <p class="description">
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-        </p>
-        <div class="divider"></div>
-        <div class="visit">
-          <a class="btn-shadow btn-shadow-primary" href="portfolio-item.html">
-            Visit Project Website
-          </a>
-        </div>
-      </div>
-      <div class="project">
-        <h3>Complete device setup development</h3>
-        <div class="screen">
-          <img src="images/portfolio3.png" class="img-fluid" alt="portfolio3" />
-        </div>
-        <p class="description">
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-        </p>
-        <div class="divider"></div>
-        <div class="visit">
-          <a class="btn-shadow btn-shadow-primary" href="portfolio-item.html">
-            Visit Project Website
-          </a>
-        </div>
+        <div class="intro">{{ content }}</div>
       </div>
     </div>
+
+    <div class="col-lg-3 sidebar">
+      {% include podcast.html %}
+      {% include recent-sermons.html %}
+    </div>
   </div>
+</div>

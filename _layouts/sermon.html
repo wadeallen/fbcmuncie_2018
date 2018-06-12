@@ -27,21 +27,8 @@ layout: default
     </div>
 
     <div class="col-lg-3 sidebar">
-      <div class="updates">
-        <strong>
-          Podcast
-          <i class="fa fa-podcast"></i>
-        </strong>
-        <p>
-          Stay up to date on the sermons at First Baptist by subscribing to the <a href="/podcast/fbcmuncie.xml">podcast</a>.
-        </p>
-      </div>
-      <div class="best-hits">
-        <strong>Most Recent Sermons:</strong>
-        {% for post in site.categories.video limit:5  %}
-        <a href="{{ post.url }}">{{ post.title }}</a> <span class="date">on {{ post.date | date: "%m/%d" }}</span></br>
-        {% endfor %}
-      </div>
+      {% include podcast.html %}
+      {% include recent-sermons.html %}
     </div>
   </div>
 </div>

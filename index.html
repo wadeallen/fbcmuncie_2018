@@ -9,36 +9,39 @@ layout: default
 <div class="blog-post-hero">
   <div class="container">
     <h1 class="animated customFadeInUp">
-      A Spirit-led people gathered to equip each other to be God's presence in our community
+      {{ site.mission }}
     </h1>
   </div>
 </div>
 
 <!-- Welcome -->
+<div class="features-section">
+  <div class="container">
+    <div class="header text-center">
+      <h2>Welcome to the website of First Baptist Church in Muncie, Indiana.</h2>
+      <p class="mt-5">
+        Founded in 1859, First Baptist gives believers an opportunity to be a part of a <a href="history">story</a> that began {{ site.time | date: '%Y' | minus:1859 }} years ago, and will continue for lifetimes to come. With a strong Baptist heritage, First Baptist challenges each member to exercise his/her gifts for the glory of God. Distinctively Christian, centered on the Bible, First Baptist proclaims the reign of God in the Muncie community.
+      </p>
+      <p> First Baptist Church has a rich <a href="history">history</a> &mdash; but is also a forward-looking, ministry-oriented congregation. <a href="/about">Read more</a></p>
+    </div>
+  </div>
+</div>
 
 <div class="features-tabs-section" style="margin-top: 100px;">
     <div class="container">
-      <div class="header">
-        <h3>Welcome to the website of First Baptist Church in Muncie, Indiana.</h3>
-        <p>
-          Founded in 1859, First Baptist gives believers an opportunity to be a part of a <a href="history">story</a> that began {{ site.time | date: '%Y' | minus:1859 }} years ago, and will continue for lifetimes to come. With a strong Baptist heritage, First Baptist challenges each member to exercise his/her gifts for the glory of God. Distinctively Christian, centered on the Bible, First Baptist proclaims the reign of God in the Muncie community.
-        </p>
-        <p> First Baptist Church has a rich <a href="history">history</a> &mdash; but is also a forward-looking, ministry-oriented congregation. <a href="/about">Read more</a></p>
-      </div>
-
-      <div class="tabs-wrapper">
+            <div class="tabs-wrapper">
         <ul class="nav nav-tabs justify-content-center" id="feature-tabs">
           <li>
-            <a href="#home" class="active" data-toggle="tab">Upstart your development</a>
+            <a href="#home" class="active" data-toggle="tab">Who We Are</a>
           </li>
           <li>
-            <a href="#profile" data-toggle="tab">Get ready in half the time</a>
+            <a href="#profile" data-toggle="tab">Our Building</a>
           </li>
           <li>
-            <a href="#messages" data-toggle="tab">Collaborate with everyone</a>
+            <a href="#messages" data-toggle="tab">What's Going On</a>
           </li>
           <li>
-            <a href="#settings" data-toggle="tab">Get more done faster</a>
+            <a href="#settings" data-toggle="tab">Contact or Find Us</a>
           </li>
         </ul>
 
@@ -109,108 +112,7 @@ layout: default
     </div>
   </div>
 
-  <div class="features-section">
-    <div class="container">
-      <div class="header text-center">
-        <h2>Need an easy way to customize your site?</h2>
-        <p class="mt-3">React is perfect for novice developers and experts alike.</p>
-      </div>
-      <div class="feature">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="info">
-              <h4 class="mt-lg-5">You don't need to have great technical experience to use your product.</h4>
-              <p>
-                Whether you want to fill this paragraph with some text like I'm doing right now, this place
-                is perfect to describe some features or anything you want - React has a complete solution for you.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 text-center">
-            <img src="images/feature4.png" class="img-fluid" alt="feature1" />
-          </div>
-        </div>
-      </div>
-      <div class="divider"></div>
-      <div class="feature">
-        <div class="row">
-          <div class="col-md-6 order-md-2">
-            <div class="info">
-              <h4 class="mt-lg-4">A fully featured well design template that works.</h4>
-              <p>
-                You have complete control over the look & feel of your website, we offer the best quality so you
-                take your site up and running in no time.
-              </p>
-              <p>
-                Write some text here to explain the features of your site or application, it
-                has lots of uses.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 order-md-1 text-center">
-            <img src="images/feature2.png" class="img-fluid" alt="feature2" />
-          </div>
-        </div>
-      </div>
-      <div class="divider"></div>
-      <div class="feature">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="info">
-              <h4 class="mt-lg-5">You don't need to have great technical experience to use your product.</h4>
-              <p>
-                Whether you want to fill this paragraph with some text like I'm doing right now, this place
-                is perfect to describe some features or anything you want - React has a complete solution for you.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 text-center">
-            <img src="images/feature3.png" class="img-fluid" alt="feature1" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="features-grid-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 feature">
-          <img src="images/circle-icons/one-color/creditcard.png" alt="creditcard" />
-          <strong>Act locally, work globally</strong>
-          <p>You can work with international customers right out of the box while you can keep staying in your country.</p>
-        </div>
-        <div class="col-md-4 feature">
-          <img src="images/circle-icons/one-color/dev.png" alt="dev" />
-          <strong>Act globally, work as usual</strong>
-          <p>With some customization you can make this product apply to your branding guidelines and amaze your customers at the same time.</p>
-        </div>
-        <div class="col-md-4 feature">
-          <img src="images/circle-icons/one-color/globe.png" alt="globe" />
-          <strong>Develop once, run everywhere</strong>
-          <p>We don't impose any design restrictions, you are free to customize it as you see fit and it's easy to use.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 feature">
-          <img src="images/circle-icons/one-color/support.png" alt="support" />
-          <strong>Act globally, work as usual</strong>
-          <p>We're always happy to offer support if you happen to have any doubts about anything, if you need
-            some new stuff contact us.</p>
-        </div>
-        <div class="col-md-4 feature">
-          <img src="images/circle-icons/one-color/mail.png" alt="mail" />
-          <strong>Develop once, run everywhere</strong>
-          <p>We'll be adding some new stuff to make it even more awesome, if you have any idea please let us know.</p>
-        </div>
-        <div class="col-md-4 feature">
-          <img src="images/circle-icons/one-color/locked.png" alt="locked" />
-          <strong>Act locally, work globally</strong>
-          <p>This thing will work on any device, it has a very easy to understand documentation and is made with SASS.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+{% include about-extended.html %}
 
 
 <!-- Sermons -->

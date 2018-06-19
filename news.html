@@ -16,21 +16,28 @@ permalink: news
 	</div>
 </div>
 
- <div class="pricing-3-options-section">
-    <div class="container">
 
-<div class="faq">
-			<div class="header">
-				<h3>What's Going On</h3>
-			</div>
-			<div class="questions">
-				{% assign announcements = site.news | sort: 'weight' %}
-				{% for announce in announcements %}
-	
-						{% endfor %}
+<div class="services-showcase-section">
+	<div class="container">
+		<div class="services">
+			{% assign rows = site.news.size | divided_by: 2.0 | ceil %}
+			{% for i in (1..rows) %}
+			{% assign offset = forloop.index0 | times: 2 %}
+			<div class="row">
+				{% for announcement in site.news limit:2 offset:offset %}
+				<div class="col-md-6 service">
+					<div class="info">
+						<a data-toggle="collapse" href="#{{ announcement.title | slugify }}"><strong>{{ announcement.title }}</strong></a>
+						<p>{{ announcement.content | markdownify | strip_html | truncate:100 }} <a data-toggle="collapse" href="#{{ announcement.title | slugify }}">read more</a></p>
+						<div class="collapse" id="{{ announcement.title | slugify }}">
+							{{ announcement.content | markdownify }}
+							<a data-toggle="collapse" href="#{{ announcement.title | slugify }}">close</a></p>
+							</div>
+						</div>
 					</div>
+					{% endfor %}
 				</div>
+				{% endfor %}
 			</div>
 		</div>
 	</div>
-</div>

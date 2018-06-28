@@ -1,7 +1,7 @@
 ---
 author: Wade Allen
 title: The Spirit and Jesus
-scripture: Various Scriptures
+scripture: Acts 10:38
 date: 2018-07-22
 ---
 

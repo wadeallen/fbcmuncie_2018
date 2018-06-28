@@ -26,50 +26,67 @@ permalink: about
 
 <!-- FAQs -->
 
- <div class="pricing-3-options-section">
-    <div class="container">
+<div class="pricing-3-options-section">
+  <div class="container">
 
-<div class="faq">
-        <div class="header">
-          <h3>Frequently Asked Questions</h3>
+    <div class="faq">
+      <div class="header">
+        <h3>Frequently Asked Questions</h3>
+      </div>
+      <div class="questions">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="question">
+              <strong>What do I wear?</strong>
+              <p>
+               The short answer is, anything you would like. There are some who feel most comfortable in their “Sunday best.” You will see some in ties and dresses (not usually both at the same time). There are others in jeans. By and large, those in the early service usually dress a bit more formal, while those in the late service are more casual. We believe that you should dress as you feel comfortable and in a way that facilitates your worship.
+             </p>
+           </div>
+           <div class="question">
+            <strong>Who is Preaching This Week?</strong>
+            <p>
+              On most weekends our pastor, <a href="/wade-allen">Wade Allen</a>, preaches. We sometimes have a guest speaker.
+            </p>
+            {% for sunday in site.worship limit:1 %}
+            <p>This week, {{ sunday.author }} will be preaching ({{ sunday.date | date: "%B %d" }}) {% if sunday.scripture != "No Scripture Chosen Yet" %} from {{ sunday.scripture }}{% endif %}</p>
+            {% endfor %}
+          </div>
         </div>
-        <div class="questions">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="question">
-                <strong>What do I wear?</strong>
-                <p>
-                 The short answer is, anything you would like. There are some who feel most comfortable in their “Sunday best.” You will see some in ties and dresses (not usually both at the same time). There are others in jeans. By and large, those in the early service usually dress a bit more formal, while those in the late service are more casual. We believe that you should dress as you feel comfortable and in a way that facilitates your worship.
-                </p>
-              </div>
-              <div class="question">
-                <strong>Who is Preaching This Week?</strong>
-                <p>
-                  On most weekends our pastor, Wade Allen, preaches. We sometimes have a guest speaker.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="question">
-                <strong>Where Do I Park?</strong>
-                <p>
-                  There is plenty of parking on all sides of the church. The largest parking lot is on the east side of the church.
-                </p>
-              </div>
-              <div class="question">
-                <strong>What Times Are the Worship Gatherings?</strong>
-                <p>
-                  We have two gathering times to worship together on Sundays. The Early Gathering begins at 9:15 a.m. The Late Gathering begins at 10:45 a.m. Sunday school classes are at the same time as the services: 9:15 and 10:45. There is an all-church fellowship time from 10:15-10:45 in the lower auditorium (below the sanctuary on the lower level).
-                </p>
-              </div>
-            </div>
+        <div class="col-md-6">
+          <div class="question">
+            <strong>Where Do I Park?</strong>
+            <p>
+              There is plenty of parking on all sides of the church. The largest parking lot is on the east side of the church.
+            </p>
+          </div>
+          <div class="question">
+            <strong>What Times Are the Worship Gatherings?</strong>
+            <p>
+              We have two gathering times to worship together on Sundays. The Early Gathering begins at 9:15 a.m. The Late Gathering begins at 10:45 a.m. Sunday school classes are at the same time as the services: 9:15 and 10:45. There is an all-church fellowship time from 10:15-10:45 in the lower auditorium (below the sanctuary on the lower level).
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="question">
+            <strong>What is Going on at {{site.name}}?</strong>
+            <p>
+              You can read more about all that is happening at First Bapist on the <a href="/news">news</a> page. Please do not hesitate to <a href="/contact">contact us</a> if you have any questions.
+            </p>
+          </div>
+          <div class="question">
+            <strong>Are there programs for our children or youth?</strong>
+            <p>
+              You can read more about age-appropriate classes and opportunites on the <a href="/children">children</a> (ages birth through 5th grade) and <a href="/youth">youth</a> (grades 6-12) pages.
+            </p>
           </div>
         </div>
       </div>
-
-      
     </div>
   </div>
+
+
+</div>
+</div>
 
   <!-- End FAQs -->
 

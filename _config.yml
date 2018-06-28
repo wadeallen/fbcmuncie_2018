@@ -8,6 +8,9 @@ youtube: fbcmunciesermons
 phone: 765-284-7749
 address: 309 E. Adams Street</br> Muncie, Indiana 47305
 mission: A Spirit-led people gathered to discover and join God's presence in our community
+# Capital Campaign Numbers
+pledged: $305,405
+collected: $133,695
 
 # Build settings
 markdown: kramdown

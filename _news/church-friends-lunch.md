@@ -1,6 +1,6 @@
 ---
 title: Church Friends Lunch
-weight: 4
+weight: 3
 ---
 
 We hope you've reserved the date for our next FBC Church Friends Lunch: **July 22 after second service**. This time we plan to have lunch picnic-style right here in our FBC shelter house. Mark Flodder will be at the grill and Adult Ministries will provide a few sides to go along with that. We plan to have some fun activities for the kids and something simple to help the rest of us get to know one another better.

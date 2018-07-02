@@ -5,7 +5,7 @@
         Join us for our Worship Gatherings
       </h3>
       <p>
-        9:15 AM (Traditional), 10:45 AM (Contemporary)
+        {{ site.worship }}
       </p>
       {% for sunday in site.worship limit:1 %}
       <p>{{ sunday.author }} will be preaching this week ({{ sunday.date | date: "%B %d" }}) {% if sunday.scripture != "No Scripture Chosen Yet" %} from {{ sunday.scripture }}{% endif %}</p>

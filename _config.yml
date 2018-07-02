@@ -12,7 +12,7 @@ mission: A Spirit-led people gathered to discover and join God's presence in our
 pledged: $305,405
 collected: $133,695
 # worship: "9:15 AM (Traditional), 10:45 AM (Contemporary)"
-worship: "We will gather in a combined worship gathering this week at 10:45 AM"
+worship: "We will gather in a combined worship gathering this week at 10:45 AM."
 
 # Build settings
 markdown: kramdown

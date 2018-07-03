@@ -111,11 +111,26 @@ body {
     font-family: 'Philosopher', sans-serif;
 
     @include transition(color .2s linear);
+
+    @media only screen 
+      and (min-device-width: 320px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) { 
+          display: none;
+        }
   }
 
   .navbar-brand span {
        color: #b7b0aa;
        font-family: 'Poppins', sans-serif;
+      @media only screen 
+        and (min-device-width: 320px) 
+        and (max-device-width: 667px) 
+        and (-webkit-min-device-pixel-ratio: 2)
+        and (orientation: portrait) { 
+            display: none;
+          }
   }
   
   .dropdown-menu {

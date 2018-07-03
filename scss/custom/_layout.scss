@@ -111,6 +111,12 @@ body {
     font-family: 'Philosopher', sans-serif;
 
     @include transition(color .2s linear);
+
+    @media only screen 
+        and (min-device-width : 375px) 
+        and (max-device-width : 667px) { 
+        font-size: 12px;
+        }
   }
 
   .navbar-brand span {

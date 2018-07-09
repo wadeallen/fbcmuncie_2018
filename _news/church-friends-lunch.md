@@ -3,5 +3,4 @@ title: Church Friends Lunch
 weight: 3
 ---
 
-Our next FBC Church Friends Lunch is **July 22 after second service**. This time we plan to have lunch picnic-style right here in our FBC shelter house. Mark Flodder will be at the grill and Adult Ministries will provide a few sides to go along with that. We plan to have some fun activities for the kids and something simple to help the rest of us get to know one another better.
-Registration is open until Friday, July 20, or until the 60 spots are filled. **Right now, we have only about 10 spots remaining.** So don’t wait! You may register online at  [by clicking here](http://bit.ly/fbc-july-cfl).  If you are unsure how to register, please call Julie Davis  . She will be happy to assist you.
+**Registration for the July 22 Church Friends Lunch has reached capacity and is now closed.** As a reminder for those registered, the lunch will be picnic-style and will take place after second service. Provided the weather cooperates, activities for kids will include an opportunity to play at the YWCA outdoor playground (parents must supervise their children), bubbles, and sidewalk chalk. **We are looking for a few adults to help clean up after the meal.** If you would be willing to help with this, please contact Julie Davis  . Thanks!

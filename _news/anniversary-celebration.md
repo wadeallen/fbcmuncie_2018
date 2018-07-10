@@ -1,5 +1,5 @@
 ---
-title: Title
+title: Anniversary Celebration
 weight: 2
 ---
 

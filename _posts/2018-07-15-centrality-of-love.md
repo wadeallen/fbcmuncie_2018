@@ -7,7 +7,7 @@ layout: sermon
 category: video
 duration: '0:32:30' 
 length: 46800502
-video_url: 
+video_url: 8hvf8UShTug 
 ---
 
 As we conclude our series in the first epistle of John, we find love as a central characteristic of the true God follower. As we discover and live in God's love, love is the natural outflow of our lives.

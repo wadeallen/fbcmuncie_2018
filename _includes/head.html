@@ -28,7 +28,7 @@
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} • {% endif %}{{ site.site_name }}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}">
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | truncatewords: 50 }}{% endif %}">
     <meta name="twitter:image" content="{% if page.layout == 'sermon' %}{{ site.url }}/images/sermon/{{ page.date | date: "%Y-%m-%d" }}.jpg{% else %}http://fbcmuncie.org/images/facebook-image.png{% endif %}">
     <meta name="twitter:image:width" content="1200">

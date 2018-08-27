@@ -10,4 +10,4 @@ length: 70296076
 video_url: q5h4P0w_eZM 
 ---
 
-We will gather in a combined service at 10:45 AM to celebrate the 10th Anniversary of Pastor Wade Allen and his family coming to Muncie. We will continue to reflect on the work of the Holy Spirit in this particular call. We will share stories from 10 years ago to highlight the work of the Holy Spirit in the life of the Allens and the life of our church.
+We gathered in a combined service at 10:45 AM to celebrate the 10th Anniversary of Pastor Wade Allen and his family coming to Muncie. We continue to reflect on the work of the Holy Spirit in this particular call. We shared stories from 10 years ago to highlight the work of the Holy Spirit in the life of the Allens and the life of our church.

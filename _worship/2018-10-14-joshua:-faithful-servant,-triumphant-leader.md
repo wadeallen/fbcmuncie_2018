@@ -1,6 +1,6 @@
 ---
 author: William Eidson
-title: Joshua
+title: Joshua: Faithful Servant, Triumphant Leader
 scripture: Joshua 24:1-15, 16-26
 date: 2018-10-14
 ---

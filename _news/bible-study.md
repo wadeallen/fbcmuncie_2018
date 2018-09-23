@@ -1,6 +1,6 @@
 ---
 title: Bible Study
-weight: 4
+weight: 2
 ---
 
 Early Sunday School: Sundays, 9:15 AM (Intergenerational Class, children’s classes for various ages, middle school Sunday school class)

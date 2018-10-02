@@ -1,5 +1,5 @@
 ---
-title: Senior Adult Day in October
+title: Senior Adult Day
 weight: 3
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: William Eidsion
+name: William Eidson
 prefix: Dr.
 position: First Baptist Church
 staff: false

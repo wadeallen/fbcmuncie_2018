@@ -1,6 +1,6 @@
 ---
 author: Wade Allen
-title: Birth of Jesus
+title: The Time Came
 scripture: Luke 2:1-20
 date: 2018-12-24
 ---

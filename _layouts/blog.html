@@ -11,7 +11,7 @@ layout: default
         <div class="title">{{ page.title }}</div>
         {% assign author = site.people | where: 'name', page.author | first %}
         <div class="author">
-          <img src="/images/people/{{ author.name | slugify }}.jpg" class="avatar" alt="author" />
+          <!-- <img src="/images/people/{{ author.name | slugify }}.jpg" class="avatar" alt="author" /> -->
           <a href="/{{ author.name | slugify }}">{{ page.author }}</a>, {{ page.date | date: "%B %d, %Y" }}
         </div>
         <div class="intro">{{ content }}</div>

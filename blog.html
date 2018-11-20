@@ -16,7 +16,7 @@ description: The blog typically includes updates and descriptions of upcoming se
 					</div>
 					{% assign author = site.people | where: 'name', post.author | first %}
 					<div class="author">
-						<img src="/images/people/{{ author.name | slugify }}.jpg" class="avatar" alt="{{ author.name }}" />
+						<!-- <img src="/images/people/{{ author.name | slugify }}.jpg" class="avatar" alt="{{ author.name }}" /> -->
 						<a href="/{{ author.name | slugify }}">{{ post.author }}</a> on {{ post.date | date: "%B %d" }}
 					</div>
 					<p class="intro">

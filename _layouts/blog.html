@@ -8,9 +8,7 @@ layout: default
       <div class="col-lg-9">
 
        <div class="post">
-        <div class="title">
-          <a href="blogpost.html">{{ page.title }}</a>
-        </div>
+        <div class="title">{{ page.title }}</div>
         {% assign author = site.people | where: 'name', page.author | first %}
         <div class="author">
           <img src="/images/people/{{ author.name | slugify }}.jpg" class="avatar" alt="author" />

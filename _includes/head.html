@@ -22,7 +22,7 @@
     <meta property="og:type" content="blog"/>
     <meta property="og:image" content="{% if page.layout == 'sermon' %}{{ site.url }}/images/sermon/{{ page.date | date: "%Y-%m-%d" }}.jpg{% else %}http://fbcmuncie.org/images/facebook-image.png{% endif %}"/>
     <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}"/>
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.content | strip_html | truncatewords: 50 }}{% endif %}" />
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.title }}{% endif %}" />
     <meta property="fb:admins" content="609878783"/>
 
     <!-- Twitter Cards -->

@@ -1,6 +1,6 @@
 <div class="best-hits">
 	<strong>Most Recent Sermons:</strong>
 	{% for post in site.categories.video limit:5  %}
-	<div class="hit-item"><a href="{{ post.url }}">{{ post.title }}</a> <span class="date">on {{ post.date | date: "%m/%d" }}</span></div><br>
+	<div class="hit-item"><a href="{{ post.url }}">{{ post.title }}</a> <span class="date">on {{ post.date | date: "%m/%d" }}</span></div>
 	{% endfor %}
 </div>

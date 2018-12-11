@@ -1,6 +1,6 @@
 ---
 author: Wade Allen
-title: Treasure in Heaven
+title: Hearts Follow Treasure
 scripture: Matthew 6:19-21
 date: 2019-02-03
 ---

@@ -11,7 +11,7 @@ It was really cool to see so many participate in the response time yesterday in 
 
 I have enjoyed working through the story of God this year. As we navigate through the season of Advent, we find ourselves with only two more Sundays until Christmas. Last week, we considered the story of Esther. If you were not able to attend church, let me encourage you to watch/listen online:
 
-http://fbcmuncie.org/video/2018/12/09/esther
+[Video from Last Week](http://fbcmuncie.org/video/2018/12/09/esther)
 
 This week, we spend one more week in the Old Testament before transitioning to the New Testament. We have spent several weeks looking at the words of the prophets, really the words of God to his people hundreds of years before Jesus. These words give us insight into Jesus' life and mission. In fact, these are the words that Jesus used to explain his mission to his followers. We come this week to Isaiah 42:1-9. Jesus quoted this passage as he interpreted his role in God's story. This week, we will see how Jesus fulfilled all that Isaiah was describing in this passage. Let me encourage you to read ahead as you prepare for worship. See you on Sunday.
 

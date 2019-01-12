@@ -9,5 +9,5 @@ weight: 2
 
 
 Interested in singing in the FBC Choir this season? Contact Bruce McFarland!
-Interested in playing drums, bass, or synth at 2nd service? Please contact Clifton Davis!
+Interested in playing drums, bass, or synth at second service? Please contact Clifton Davis!
 Thanks!

@@ -18,7 +18,7 @@ That’s a great question! I would encourage you to begin by getting quiet for a
 
 
 
-Lord, I am open to the Holy Spirit. Come to me, dwell in me, speak to me so that I may become more like Christ. Lord, give me the courage to be open. Lord, I am open to the Holy Spirit. Come, Holy Spirit. Amen.
+*"Lord, I am open to the Holy Spirit. Come to me, dwell in me, speak to me so that I may become more like Christ. Lord, give me the courage to be open. Lord, I am open to the Holy Spirit. Come, Holy Spirit. Amen."*
 
 
 

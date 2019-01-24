@@ -3,7 +3,7 @@ title: How Do I Begin?
 weight: 3
 ---
 
-Last Sunday you found out about a remarkable way you can let your light shine in 2019 and beyond: as individuals, we are planning to tell our personal faith stories, so that as a whole, First Baptist can reflect on and share the good work God is doing in our lives.
+Last Sunday you found out about a remarkable way you can let your light shine in 2019 and beyond. As individuals, we are planning to tell our personal faith stories. Then, as a whole, First Baptist can reflect on and share the good work God is doing in our lives.
 
 
 

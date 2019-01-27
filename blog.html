@@ -20,6 +20,7 @@ description: The blog typically includes updates and descriptions of upcoming se
 						<a href="/{{ author.name | slugify }}">{{ post.author }}</a> on {{ post.date | date: "%B %d" }}
 					</div>
 					<p class="intro">
+						{{ content }}
 					</p>
 				</div>     
 				 {% endfor %}            

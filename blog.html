@@ -20,7 +20,8 @@ description: The blog typically includes updates and descriptions of upcoming se
 						<a href="/{{ author.name | slugify }}">{{ post.author }}</a> on {{ post.date | date: "%B %d" }}
 					</div>
 					<p class="intro">
-						{{ post.content | strip_html | truncatewords: 300 }}
+						{{ post.content | strip_html | truncatewords: 300 }} 
+						<a href="{{ post.url }}">read more</a>
 					</p>
 				</div>     
 				 {% endfor %}            

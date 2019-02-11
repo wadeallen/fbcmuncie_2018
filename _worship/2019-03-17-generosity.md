@@ -1,0 +1,8 @@
+---
+author: Wade Allen
+title: Generosity
+scripture: Matthew 20:1-16
+date: 2019-03-17
+---
+
+The parable of the workers in the vineyard is a powerful story of the reversal of the Kingdom of God. As we read this story, may we rejoice in our generous God rather than being filled with envy.

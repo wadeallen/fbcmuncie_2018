@@ -1,0 +1,16 @@
+---
+author: Wade Allen
+title: Digging Deeper
+date: 2019-02-11
+category: blog
+layout: blog
+comments: yes
+---
+
+How many times do you you sit through a church service or sermon, walk away unable to recall the topic? You don't have to reveal your answer to me; it might hurt my feelings :). In all seriousness, we often hear God's word and never dig into it. If we dare admit it, we rarely ask questions or speak with others about our study.
+ 
+By this point in Matthew, Jesus is teaching the crowds in parables. The disciples don't understand why Jesus is not teaching as clear as they might like. They don't always understand his teachings and come to him with questions. In turn, Jesus reveals a purpose behind his method for teaching.
+
+I am looking forward to engaging Matthew 13:24-43 with you this week. Let me invite you to read it ahead of time as you prepare for worship on Sunday.
+
+>(Matthew 13:24-43 NIV) Jesus told them another parable: “The kingdom of heaven is like a man who sowed good seed in his field. But while everyone was sleeping, his enemy came and sowed weeds among the wheat, and went away. When the wheat sprouted and formed heads, then the weeds also appeared. “The owner’s servants came to him and said, ‘Sir, didn’t you sow good seed in your field? Where then did the weeds come from?’ “‘An enemy did this,’ he replied. “The servants asked him, ‘Do you want us to go and pull them up?’ “‘No,’ he answered, ‘because while you are pulling the weeds, you may uproot the wheat with them. Let both grow together until the harvest. At that time I will tell the harvesters: First collect the weeds and tie them in bundles to be burned; then gather the wheat and bring it into my barn.’” He told them another parable: “The kingdom of heaven is like a mustard seed, which a man took and planted in his field. Though it is the smallest of all seeds, yet when it grows, it is the largest of garden plants and becomes a tree, so that the birds come and perch in its branches.” He told them still another parable: “The kingdom of heaven is like yeast that a woman took and mixed into about sixty pounds of flour until it worked all through the dough.” Jesus spoke all these things to the crowd in parables; he did not say anything to them without using a parable. So was fulfilled what was spoken through the prophet: “I will open my mouth in parables, I will utter things hidden since the creation of the world.” Then he left the crowd and went into the house. His disciples came to him and said, “Explain to us the parable of the weeds in the field.” He answered, “The one who sowed the good seed is the Son of Man. The field is the world, and the good seed stands for the people of the kingdom. The weeds are the people of the evil one, and the enemy who sows them is the devil. The harvest is the end of the age, and the harvesters are angels. “As the weeds are pulled up and burned in the fire, so it will be at the end of the age. The Son of Man will send out his angels, and they will weed out of his kingdom everything that causes sin and all who do evil. They will throw them into the blazing furnace, where there will be weeping and gnashing of teeth. Then the righteous will shine like the sun in the kingdom of their Father. Whoever has ears, let them hear.

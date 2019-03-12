@@ -1,6 +1,0 @@
----
-title: The Story Project Workshop
-weight: 3
----
-
-Has something happened in your life that you know is a “God Thing”? How have you seen God work in your life and the lives of those in your family? By now many of you know about the year-long project First Baptist is doing to collect and share stories of how God is working in our church. But sometimes writing your story can be hard. Feeling like you don’t have a story to tell, getting bogged down in the details, or simply never finding the time to sit down and write are problems that a lot of people face when trying to write their story. Come to the lower auditorium area of First Baptist Church on **Saturday, March 16**, from **9:00 AM to 12:00 PM** for The Story Project Workshop. We can help you answer these questions and more on that day. We will have people who can help you with your story no matter what stage it’s in. RSVP for the workshop by calling the church or through Planning Center  at [http://bit.ly/fbcstory](http://bit.ly/fbcstory) by  **March 10**. Come write your story with a community of people in whom God is working!

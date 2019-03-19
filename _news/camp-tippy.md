@@ -1,6 +1,6 @@
 ---
 title: Camp Tippy
-weight: 2
+weight: 3
 ---
 
 Camp time! It is time to register for camp. All registrations need to be in by May 1. Please register online at  [https://abcin.campmanagement.com/enroll](https://abcin.campmanagement.com/enroll). Contact Shirley Pittenger for more information or questions.

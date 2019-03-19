@@ -1,6 +1,6 @@
 ---
 title: Visitor or Bulletin Information
-weight: 7
+weight: 4
 ---
 
-If you would like an announcement in the April Visitor, please email it to  Wade by **Sunday, March 17**. You can also email articles for the weekly bulletin by Tuesday of each week.
+If you would like an announcement in the May Visitor, please email it to  Wade by **Sunday, April 21**. You can also email articles for the weekly bulletin by Tuesday of each week.

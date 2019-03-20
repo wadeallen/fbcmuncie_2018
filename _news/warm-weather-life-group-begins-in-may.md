@@ -7,11 +7,11 @@ A total of 14 members of the FBC family met last spring, summer, and early fall 
  
 
 
-“Several of the people in our group are retired and still traveling a lot,” said Joe Songer, a group leader.  “It made sense for us not to do a study that encompassed the whole time period such as a book study of a book in the Bible or a book by a Christian author.”
+“Several of the people in our group are retired and still traveling a lot,” said Joe Songer, a group leader.  “It made sense for us not to do a study that encompassed the whole time period such as a study of a book in the Bible or a book by a Christian author.”
 
 
  
-This year, the group will do the same separate study focus so that people don’t have to not participate if they can’t be at every session.   One presentation already established will be a visit from Rev. Bob Ball of Blood ‘n Fire Ministries, who has done disaster relief work over the years with his grill “Holy Smokes.”  Rev. Bob has provide food and relief at Hurricane Katrina, for instance, and many other locations, and will talk about how Christians can help with this kind of relief.
+This year, the group will do the same separate study focus so that people don’t have to not participate if they can’t be at every session.   One presentation already established will be a visit from Rev. Bob Ball of Blood ‘n Fire Ministries who has done disaster relief work over the years with his grill “Holy Smokes.”  Rev. Bob has provided food and relief at Hurricane Katrina, for instance, and many other locations, and will talk about how Christians can help with this kind of relief.
  
 
 

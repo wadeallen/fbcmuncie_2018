@@ -30,3 +30,6 @@ If you haven’t yet submitted your story, there’s still time: **the deadline 
 
 
 Your story is important—and only you can tell it. When you choose to do that, God gets glory for His work in your life, and other people have the chance to learn and draw courage from your experiences. Maybe what you have to share today will give me hope that God is with me in what I face tomorrow. Don’t take a pass on this opportunity. Ask for help if you need it, but don’t just be a story keeper: be a storyTELLER.
+
+
+\pagebreak

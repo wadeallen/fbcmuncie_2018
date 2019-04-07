@@ -1,6 +1,6 @@
 title: "First Baptist Church Muncie"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://fbcmuncie.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://fbcmuncie.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter: fbcmuncie
 facebook: firstbaptistmuncie
 flickr: fbcmuncie

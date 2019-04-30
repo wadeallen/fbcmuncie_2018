@@ -24,18 +24,16 @@ description: Coming Up in Worship at First Baptist Church Muncie
         {% endif %}
           <div class="col-md-4">
             <div class="service">
-               <div class="info">
+              <div class="pic">
+                {% capture picture-file %}images/sermon/{{ sunday.date | date: "%Y-%m-%d" }}.jpg{% endcapture %}
+                <img src="{{ picture-file }}" class="img-fluid" alt="{{ sunday.title }}" />
+              </div>
+              <div class="info">
                 <strong>{{ sunday.date | date: "%B %d" }}</br>{{ sunday.title }}</strong>
                 <p>
                    {{ sunday.scripture }}</br>{% if author.name %}<a href="/{{ author.name | slugify }}">{{ author.name }}</a>{% else %}{{ sunday.author }}{% endif %}
                 </p>
               </div>
-              
-              <div class="pic">
-                {% capture picture-file %}images/sermon/{{ sunday.date | date: "%Y-%m-%d" }}.jpg{% endcapture %}
-                <img src="{{ picture-file }}" class="img-fluid" alt="{{ sunday.title }}" />
-              </div>
-
             </div>
           </div>
           {% if modulo == '0' or forloop.last %}

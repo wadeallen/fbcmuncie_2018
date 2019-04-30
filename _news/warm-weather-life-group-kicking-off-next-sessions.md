@@ -1,6 +1,6 @@
 ---
 title: Warm Weather Life Group Kicking Off Next Sessions
-weight: 2
+weight: 3
 ---
 
 From June through October, a group of people, several of whom are "snowbirds" and only here in the summer, meet as part of FBC’s life groups. The group will be meeting on the second and fourth Thursday evenings of the month for dessert, program, and discussion.

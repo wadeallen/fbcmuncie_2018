@@ -1,6 +1,6 @@
 ---
 title: Children's Summer Schedule
-weight: 2
+weight: 3
 ---
 
 We want to let you know of our new summer schedule for the children! With our mentees taking some (much deserved!) time off, we are shuffling things up a bit.

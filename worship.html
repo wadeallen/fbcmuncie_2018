@@ -25,12 +25,13 @@ description: Coming Up in Worship at First Baptist Church Muncie
           <div class="col-md-4">
             <div class="service">
               <div class="pic">
-                <img src="images/services2.png" class="img-fluid" alt="services1" />
+                {% capture picture-file %}images/sermon/{{ sunday.date | date: "%Y-%m-%d" }}.jpg{% endcapture %}
+                <img src="{{ picture-file }}" class="img-fluid" alt="{{ sunday.title }}" />
               </div>
               <div class="info">
-                <strong>Get notifications instantly</strong>
+                <strong>{{ sunday.title }}</strong>
                 <p>
-                  You can work with international customers right out of the box while staying in your country.
+                  {{ sunday.date | date: "%B %d" }}
                 </p>
               </div>
             </div>

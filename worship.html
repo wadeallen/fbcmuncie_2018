@@ -14,7 +14,14 @@ description: Coming Up in Worship at First Baptist Church Muncie
         </p>
       </div>
       <div class="services">
-        <div class="row">
+        {% for sunday in site.worship %}
+        {% assign author = site.people | where: 'name', sunday.author | first %}
+
+        {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
+
+        {% if modulo == '1' %}
+            <div class="row">
+        {% endif %}
           <div class="col-md-4">
             <div class="service">
               <div class="pic">
@@ -28,33 +35,10 @@ description: Coming Up in Worship at First Baptist Church Muncie
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="service">
-              <div class="pic">
-                <img src="images/services4.png" class="img-fluid" alt="services2" />
-              </div>
-              <div class="info">
-                <strong>Insights & Reports</strong>
-                <p>
-                  You can work with international customers right out of the box while staying in your country.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service">
-              <div class="pic">
-                <img src="images/services3.png" class="img-fluid" alt="services3" />
-              </div>
-              <div class="info">
-                <strong>Location Services</strong>
-                <p>
-                  You can work with international customers right out of the box while staying in your country.
-                </p>
-              </div>
-            </div>
-          </div>
+          {% if modulo == '0' or forloop.last %}
         </div>
+        {% endif %}
+        {% endfor %}
       </div>
     </div>
   </div>

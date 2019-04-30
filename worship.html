@@ -5,7 +5,7 @@ layout: default
 description: Coming Up in Worship at First Baptist Church Muncie
 ---
 
-  <div class="blog-cols-header">
+<!--   <div class="blog-cols-header">
     <div class="container">
       <h1>
         Coming Up in Worship at First Baptist Church Muncie
@@ -39,4 +39,36 @@ description: Coming Up in Worship at First Baptist Church Muncie
       {% endfor %}
     </div>
   </div>
+ -->
 
+  <div class="services-grid-section services-grid-section--border">
+    <div class="container">
+      <div class="header">
+        <h3>Coming Up in Worship at First Baptist Church Muncie</h3>
+        <p>
+         {{ site.worship-times }}
+        </p>
+      </div>
+      <div class="services">
+        {% for sunday in site.worship %}
+        {% assign author = site.people | where: 'name', sunday.author | first %}
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service">
+              {% capture picture-file %}images/sermon/{{ sunday.date | date: "%Y-%m-%d" }}.jpg{% endcapture %}
+              <div class="pic">
+                <img src="{{ picture-file }}" class="img-fluid" alt="services1" />
+              </div>
+              <div class="info">
+                <strong>{{ sunday.date | date: "%B %d" }}</strong>
+                <p>
+                  {{ sunday.title }}</br>{{ sunday.scripture }}</br>{% if author.name %}<a href="/{{ author.name | slugify }}">{{ author.name }}</a>{% else %}{{ sunday.author }}{% endif %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>

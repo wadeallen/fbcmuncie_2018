@@ -29,7 +29,7 @@ description: Coming Up in Worship at First Baptist Church Muncie
                 <img src="{{ picture-file }}" class="img-fluid" alt="{{ sunday.title }}" />
               </div>
               <div class="info">
-                <strong>{{ sunday.date | date: "%B %d" }} \\ {{ sunday.title }}</strong>
+                <strong>{{ sunday.date | date: "%B %d" }} - {{ sunday.title }}</strong>
                 <p>
                    {{ sunday.scripture }}</br>{% if author.name %}<a href="/{{ author.name | slugify }}">{{ author.name }}</a>{% else %}{{ sunday.author }}{% endif %}
                 </p>

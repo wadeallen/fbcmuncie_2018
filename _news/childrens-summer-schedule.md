@@ -8,6 +8,10 @@ We want to let you know our new summer schedule for the children! With our mente
 
 
 
+
+
+
+
 For the next few months (May–July), we will not have Sunday school classes for pre-K through 5th grade during first service. Child care will be provided for ages birth through 3 years with Joyce and Dave as usual. We will also be providing child care for ages pre-K through 2nd grade, who are just a little too young to sit through the service every week. They can be dropped off downstairs in the Sunday School room. Please note: This is only child care—a place for them to play during the service -  there will be no lesson during this time.
 
 

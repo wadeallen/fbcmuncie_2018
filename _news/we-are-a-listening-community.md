@@ -1,6 +1,6 @@
 ---
 title: We Are a Listening Community
-weight: 3
+weight: 2
 ---
 
 You are about to open a great gift.

@@ -1,6 +1,6 @@
 ---
 title: Ark Trip
-weight: 2
+weight: 3
 ---
 
 Sue Mutter is leading an Ark trip on **July 10**. We will be leaving the Meijer parking lot at 7:00 AM. Cost is $80/person, which includes ticket and coach. Food is on your own at the buffet located next to Ark. Prices for the buffet are seniors ($10.99), adults ($14.99), and kids 5–12 ($6.99). Wear good walking shoes. There are electric scooters available to rent if you have problems walking ($35.00/day). We will arrive back in Muncie by 7:00 PM.

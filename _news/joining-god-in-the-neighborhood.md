@@ -116,4 +116,7 @@ To create new experiments inviting more people in the congregation to join with 
 
 
 
-This summer we will continue to Join God in the Neighborhood through new opportunities.  In July we will have a two-week period, July 15-27, where FBC will provide opportunities for individuals, groups, and families to discover more of what God is already doing in our communities. There will be opportunities to do tours and gather information about community organizations.  There will also be opportunities to join with some of these organizations and serve the community with them. It is our hope at FBC that everyone will participate during this event so that we can continue to serve God in our neighborhood in new and exciting ways. There will be more information forthcoming in the weeks ahead.  If you have any questions or ideas regarding this, feel free to talk to James Heimlich or MaryAnne Bayer.
+This summer we will continue to Join God in the Neighborhood through new opportunities.  In July we will have a two-week period, July 15-27, where FBC will provide opportunities for individuals, groups, and families to discover more of what God is already doing in our communities. There will be opportunities to do tours and gather information about community organizations.  There will also be opportunities to join with some of these organizations and serve the community with them. It is our hope at FBC that everyone will participate during this event so that we can continue to serve God in our neighborhood in new and exciting ways. There will be more information forthcoming in the weeks ahead.  If you have any questions or ideas regarding this, feel free to talk to James Heimlich or MaryAnne Bayer. 
+
+
+\pagebreak

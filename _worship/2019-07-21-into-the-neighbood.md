@@ -1,5 +1,5 @@
 ---
-author: Wade Allen
+author: Various Speakers
 title: Into the Neighbood
 scripture: Various Passages
 date: 2019-07-21

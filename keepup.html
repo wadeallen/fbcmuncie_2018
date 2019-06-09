@@ -1,0 +1,47 @@
+---
+title: Keep up with the sermons
+layout: default
+permalink: keepup
+description: Podcast and Sermon Videos from First Baptist Church
+---
+
+
+<div class="services-grid-section">
+  <div class="container">
+    <div class="header">
+      <h3>Podcast</h3>
+    </div>
+    <p>A great way to keep up with the sermons at First Baptist Church is by subscribing to the podcast. You can <a href="https://podcasts.apple.com/us/podcast/first-baptist-church-muncie-indiana/id292553495">subscribe</a> directly from <a href="https://podcasts.apple.com/us/podcast/first-baptist-church-muncie-indiana/id292553495">iTunes</a> or use a <a href="/podcast/fbcmuncie.xml">direct link in the podcast application of your choice</a>
+    </p>
+  </div>
+</div>
+
+
+<div class="services-grid-section">
+  <div class="container">
+    <div class="header">
+      <h3>Watch Sermons Online</h3>
+    </div>
+    <div class="services">
+      <div class="row">
+       {% for post in site.categories.video limit:9  %}
+        <div class="col-md-4">
+          <div class="service">
+            <div class="pic">
+           <a href="{{ post.url }}"><img src="https://img.youtube.com/vi/{{ post.video_url }}/mqdefault.jpg" class="img-fluid" alt="services1" /></a>
+            </div>
+        <div class="info">
+          <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+          <p>
+            {% assign author = site.people | where: 'name', post.author | first %}
+            <a href="/{{ author.name | slugify }}">{{ post.author }}</a> on {{ post.date | date: "%B %d" }}
+          </p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+</div>
+</div>
+

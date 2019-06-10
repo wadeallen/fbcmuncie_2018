@@ -1,6 +1,6 @@
 ---
 author: Wade Allen
-title: The Call of a Father
+title: Call of the Father
 scripture: Ephesians 6:1-4
 date: 2019-06-16
 ---

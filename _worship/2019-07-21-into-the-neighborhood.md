@@ -1,6 +1,6 @@
 ---
 author: Various Speakers
-title: Into the Neighbood
+title: Into the Neighborhood
 scripture: Various Passages
 date: 2019-07-21
 ---

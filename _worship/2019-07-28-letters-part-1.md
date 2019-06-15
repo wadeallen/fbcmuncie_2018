@@ -1,6 +1,6 @@
 ---
 author: Wade Allen
-title: Letters: Part 1
+title: Letters Part 1
 scripture: Revelation 2
 date: 2019-07-28
 ---

@@ -1,8 +1,8 @@
 ---
-author: Troy Hershman
-title: Poverty in the Bible
-scripture: Various Passages
-date: 2019-06-23
+author: "Troy Hershman"
+title: "Poverty in the Bible"
+scripture: "Various Passages"
+date: "2019-06-23"
 ---
 
 As we prepare for our July neighborhood canvas, we pause to consider God's heart for the poor. We will survey the Scriptures for passages relating to the poor. While it is difficult to narrow this down, we find that God's heart is constantly on the side of the poor. It is our job to join Him as he reaches out to those in need.

@@ -46,6 +46,18 @@
 
 <script src='https://www.google.com/recaptcha/api.js'></script>
 
+
+<!-- Full Calendar script -->
+<script src='/js/vendor/fullcalendar/packages/core/main.js'></script>
+<script src='/js/vendor/fullcalendar/packages/google-calendar/main.js'></script>
+<script>
+...
+var calendar = new FullCalendar.Calendar(calendarEl, {
+  plugins: [ 'googleCalendar' ]
+});
+...
+</script>
+
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->

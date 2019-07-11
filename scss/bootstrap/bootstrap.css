@@ -2004,15 +2004,15 @@ fieldset[disabled] a.btn {
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #704e42;
+  border-color: #704e42;
 }
 
 .btn-primary:active, .btn-primary.active,
 .show > .btn-primary.dropdown-toggle {
-  background-color: #0069d9;
+  background-color: #704e42;
   background-image: none;
-  border-color: #0062cc;
+  border-color: #704e42;
 }
 
 .btn-secondary {

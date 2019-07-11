@@ -83,9 +83,10 @@
         {
         googleCalendarId:'fbcmuncie.org_oamafcbnnsdl356288bd7hka84@group.calendar.google.com', 
         className: 'gcal-event' // an option!
-        }
-
-
+        },
+        eventClick: function(info) {
+            info.jsEvent.preventDefault(); 
+          }
     });
 
     calendar.render();

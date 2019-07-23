@@ -20,7 +20,7 @@ layout: default
           </div>
         </div>
         <div class="title">
-          <a href="blogpost.html">{{ page.title }}</a>
+          {{ page.title }}
         </div>
         {% assign author = site.people | where: 'name', page.author | first %}
         <div class="author">

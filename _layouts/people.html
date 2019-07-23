@@ -48,7 +48,7 @@ layout: default
 </div>
 
 
-<div class="services-grid-section services-grid-section--border">
+<div class="services-grid-section">
 	<div class="container">
 		<div class="header">
 			<h3>Other Sermons by {{ page.name }}</h3>
@@ -64,7 +64,7 @@ layout: default
 					<div class="service">
 						<div class="pic">
 							 {% capture picture-file %}images/sermon/{{ post.date | date: "%Y-%m-%d" }}.jpg{% endcapture %}
-							<a href="{{post.url}}"><img src="{{ picture-file }}" alt="services1" /></a>
+							<a href="{{post.url}}"><img src="{{ picture-file }}" class="img-fluid" alt="{{ post.title }}" /></a>
 						</div>
 						<div class="info">
 							<a href="{{post.url}}"><strong>{{ post.title }}</strong></a>

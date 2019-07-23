@@ -124,7 +124,8 @@ layout: default
         <div class="col-md-4">
           <div class="service">
             <div class="pic">
-           <a href="{{ post.url }}"><img src="https://img.youtube.com/vi/{{ post.video_url }}/mqdefault.jpg" class="img-fluid" alt="services1" /></a>
+               {% capture picture-file %}images/sermon/{{ sunday.date | date: "%Y-%m-%d" }}.jpg{% endcapture %}
+           <a href="{{ post.url }}"><img src="{{ picture-file }}" class="img-fluid" alt="services1" /></a>
             </div>
         <div class="info">
           <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>

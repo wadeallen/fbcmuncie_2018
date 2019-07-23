@@ -4,7 +4,7 @@ title: Salt and Light Living
 date: 2014-02-09
 category: video
 layout: sermon
-video_url: Lo_aL4GDmgw
+youtube: Lo_aL4GDmgw
 duration: '0:31:30'
 length: 30249864
 ---

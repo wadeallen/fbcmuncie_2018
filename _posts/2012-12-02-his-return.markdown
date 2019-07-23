@@ -4,7 +4,7 @@ title: His Return
 author: Wade Allen
 category: video
 date: 2012-12-02
-video_url: Wp7ySbeM9Vw
+youtube: Wp7ySbeM9Vw
 duration: '35:44'
 length: 17496987
 ---

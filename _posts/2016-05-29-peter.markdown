@@ -7,7 +7,7 @@ date: 2016-05-29
 layout: sermon
 duration: '0:35:01' 
 length: 50440391
-video_url: gsrKWqLv4gc
+youtube: gsrKWqLv4gc
 ---
 
 Peter is mentioned more in the gospels than any other person except Jesus. His personality and experiences help us understand the challenge of following Jesus. When Jesus meets Peter, he changes his name. Yet Peter struggles to become the Rock that Jesus told him he would be. We learn much from Peter's failures and triumphs. We watch as this rough-edged fisherman becomes a Holy Spirit empowered leader who helps establish the early church.

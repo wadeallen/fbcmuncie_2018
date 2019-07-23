@@ -4,7 +4,7 @@ title: The Cost of Following
 date: 2013-10-13 
 category: video
 layout: sermon
-video_url: e7RaJ5pA8wE
+youtube: e7RaJ5pA8wE
 duration: '0:42:28'
 length: 40951461
 ---

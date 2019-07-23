@@ -7,7 +7,7 @@ layout: sermon
 category: video
 duration: '0:32:43' 
 length: 131039531
-video_url: bd0yBSrmrx8
+youtube: bd0yBSrmrx8
 ---
 
 Luke 10:1-12

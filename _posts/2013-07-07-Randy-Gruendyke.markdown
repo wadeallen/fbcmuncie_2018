@@ -4,7 +4,7 @@ title: Genesis 3
 date: 2013-07-07 
 category: video
 layout: sermon
-video_url: 8KJ5krDUkfs
+youtube: 8KJ5krDUkfs
 duration: '0:34:36'
 length: 33396444
 ---

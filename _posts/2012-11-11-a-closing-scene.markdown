@@ -5,7 +5,7 @@ title: A Closing Scene
 category: video
 author: Wade Allen
 date: 2012-11-11
-video_url: 9jkC6c3tL2Q
+youtube: 9jkC6c3tL2Q
 tag: sermon
 duration: '28:04'
 length: 13576848

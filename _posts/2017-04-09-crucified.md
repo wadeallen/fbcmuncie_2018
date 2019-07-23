@@ -7,7 +7,7 @@ layout: sermon
 category: video
 duration: '0:29:17' 
 length: 42176361
-video_url: E17Bso9znuY
+youtube: E17Bso9znuY
 ---
 
 As we begin Holy Week, we will walk through the story of Jesus' arrest and crucifixion. Jesus' control and determination to fulfill his mission are stunning. He could have called it off at any point. Yet, he willingly steps into pain, suffering, humiliation in order to rescue us.

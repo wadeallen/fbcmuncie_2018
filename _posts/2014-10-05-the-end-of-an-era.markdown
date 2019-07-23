@@ -4,7 +4,7 @@ title: The End of an Era
 date: 2014-10-05
 category: video
 layout: sermon
-video_url: giORY_YHqoY
+youtube: giORY_YHqoY
 duration: '0:31:43'
 length: 30624543
 ---

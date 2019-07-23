@@ -7,7 +7,7 @@ date: 2016-01-31
 layout: sermon
 duration: '0:32:28' 
 length: 31350653
-video_url: oJAHsautz3M
+youtube: oJAHsautz3M
 ---
 
 While Jesus is teaching on the shore of a lake, Simon and his companions are fishing with little success. Jesus elicits Simon's help by utilizing his boat as a podium for his teaching. But Jesus has more in mind. He instructs Simon to drop his failing nets one more time. Simon obeys Jesus and finds an extraordinary opportunity to follow Him. This story summons each of us to lay down our lives for Jesus.

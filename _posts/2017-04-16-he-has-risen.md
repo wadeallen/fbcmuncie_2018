@@ -7,7 +7,7 @@ layout: sermon
 category: video
 duration: '0:26:32' 
 length: 38212253
-video_url: qH-Ed6x6M64
+youtube: qH-Ed6x6M64
 ---
 
 The resurrected Christ appears first to a small group of women. Their response is appropriate. They worship and carry the news to others. As we come to Resurrection Sunday, may we respond in like ways.

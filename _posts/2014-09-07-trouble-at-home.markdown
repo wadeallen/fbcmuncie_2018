@@ -4,7 +4,7 @@ title: Trouble at Home
 date: 2014-09-07
 category: video
 layout: sermon
-video_url: cKa3LOx_CUs
+youtube: cKa3LOx_CUs
 duration: '0:31:21'
 length: 30274629
 ---

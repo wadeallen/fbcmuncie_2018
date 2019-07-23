@@ -7,7 +7,7 @@ layout: sermon
 category: video
 duration: '0:35:21' 
 length: 50908287
-video_url: 09cknHBtNng
+youtube: 09cknHBtNng
 ---
 
 Neil Kring will be preaching from the book of Lamentations.

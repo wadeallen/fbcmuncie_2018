@@ -4,7 +4,7 @@ title: The Temptations
 date: 2013-02-17 
 category: video
 layout: sermon
-video_url: aXi03kdb84A
+youtube: aXi03kdb84A
 duration: '34:12'
 length: 16588531
 ---

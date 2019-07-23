@@ -4,7 +4,7 @@ title: Pushing Back the Darkness
 date: 2013-09-22 
 category: video
 layout: sermon
-video_url: 5dYPUMY_qeo
+youtube: 5dYPUMY_qeo
 duration: '0:30:19'
 length: 29282919
 ---

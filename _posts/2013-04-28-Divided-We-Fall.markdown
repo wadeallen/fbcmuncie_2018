@@ -4,7 +4,7 @@ title: Divided We Fall
 date: 2013-04-28 
 category: video
 layout: sermon
-video_url: HkHrQQEKT8w
+youtube: HkHrQQEKT8w
 duration: '0:28:38'
 length: 27664562 
 ---

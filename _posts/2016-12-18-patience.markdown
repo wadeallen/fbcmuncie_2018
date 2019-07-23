@@ -7,7 +7,7 @@ date: 2016-12-18
 layout: sermon
 duration: '0:20:46' 
 length: 29912236
-video_url: Z4M2VdVQxJo
+youtube: Z4M2VdVQxJo
 ---
 
 On this final Sunday of Advent, we consider the value of patience. In a world that is not yet right, we are tempted to distrust God, to complain, to grumble. But just as God has been faithful in the past (Jesus' coming at Christmas), He will be faithful in the future (His Second Coming). As we live in between these two events, we must be patient.

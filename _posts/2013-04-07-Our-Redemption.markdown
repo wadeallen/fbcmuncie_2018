@@ -4,7 +4,7 @@ title: Our Redemption
 date: 2013-04-07 
 category: video
 layout: sermon
-video_url: 0IeZ1wq2zNM 
+youtube: 0IeZ1wq2zNM 
 length: 27665788
 duration: '28:38'
 ---

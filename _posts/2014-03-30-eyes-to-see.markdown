@@ -4,7 +4,7 @@ title: Eyes to See
 date: 2014-03-30
 category: video
 layout: sermon
-video_url: nrmgYFfKp_s
+youtube: nrmgYFfKp_s
 duration: '0:30:40'
 length: 29621610
 ---

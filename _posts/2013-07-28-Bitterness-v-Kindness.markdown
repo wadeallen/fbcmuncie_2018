@@ -4,7 +4,7 @@ title: Bitterness v Kindness
 date: 2013-07-28 
 category: video
 layout: sermon
-video_url: aeCMa6-xdDo
+youtube: aeCMa6-xdDo
 duration: '0:31:25'
 length: 30330797
 ---

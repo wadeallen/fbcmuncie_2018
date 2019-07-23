@@ -4,7 +4,7 @@ title: Easter Changes Everything
 date: 2013-03-31 
 category: video
 layout: sermon
-video_url: 5VAw7wm18Oo
+youtube: 5VAw7wm18Oo
 length: 29219096
 duration: '30:15'
 ---

@@ -4,7 +4,7 @@ title: Care
 date: 2015-01-18
 category: video
 layout: sermon
-video_url: -EjG-JqkSAE
+youtube: -EjG-JqkSAE
 duration: '0:36:09'
 length: 34886316
 ---

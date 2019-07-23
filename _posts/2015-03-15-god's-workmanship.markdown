@@ -4,7 +4,7 @@ title: God's Workmanship
 date: 2015-03-15
 category: video
 layout: sermon
-video_url: VvNd6ybD9UU
+youtube: VvNd6ybD9UU
 duration: '0:28:18'
 length: 40937230
 ---

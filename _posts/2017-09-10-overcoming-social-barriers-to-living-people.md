@@ -7,7 +7,7 @@ layout: sermon
 category: video
 duration: '0:37:20' 
 length: 53765260
-video_url: bx0Dvpwie98
+youtube: bx0Dvpwie98
 ---
 
 Neil preaches on Luke 10 as we conclude our summer series.

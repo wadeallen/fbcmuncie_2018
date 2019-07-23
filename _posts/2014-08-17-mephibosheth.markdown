@@ -4,7 +4,7 @@ title: Carried to the Table
 date: 2014-08-17
 category: video
 layout: sermon
-video_url: p2_AwR7PV3M
+youtube: p2_AwR7PV3M
 duration: '0:29:15'
 length: 28263829
 ---

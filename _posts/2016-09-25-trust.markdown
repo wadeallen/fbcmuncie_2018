@@ -7,7 +7,7 @@ date: 2016-09-25
 layout: sermon
 duration: '0:38:40' 
 length: 55702108
-video_url: k08-kntdVwk
+youtube: k08-kntdVwk
 ---
 
 Solomon describes a life of wisdom. He defines it as trusting God rather than relying on our own efforts, resources. He expresses the benefits of fearing God and shunning evil. As we consider this short passage, we are challenged to continue each day in reliance on God's way, submitting to His plan for us. Solomon assures us that our lives will be dramatically better if we will live in this vein.

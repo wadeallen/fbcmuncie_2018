@@ -4,7 +4,7 @@ title: Giving God Credit
 worship_date: 2013-01-13
 category: video
 layout: sermon 
-video_url: UBOzQ1PuC-k
+youtube: UBOzQ1PuC-k
 duration: '25:13'
 length: 12272981
 ---

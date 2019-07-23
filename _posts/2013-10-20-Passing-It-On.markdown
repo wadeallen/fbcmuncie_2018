@@ -4,7 +4,7 @@ title: Passing It On
 date: 2013-10-20 
 category: video
 layout: sermon
-video_url: pDO1gW2zqT8
+youtube: pDO1gW2zqT8
 duration: '0:41:47'
 length: 40289907 
 ---

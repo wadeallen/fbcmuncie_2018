@@ -11,7 +11,12 @@ layout: default
        <div class="post">
         <div class="video">
           <div class="iframe-wrapper">
-            <iframe width="620" height="350" src="https://www.youtube.com/embed/{{page.video_url}}?showinfo=1" frameborder="0" allowfullscreen></iframe>
+            {% if page.youtube %}
+            <iframe width="620" height="350" src="https://www.youtube.com/embed/{{page.youtube}}?showinfo=1" frameborder="0" allowfullscreen></iframe>
+            {% endif %}
+            {% if page.vimeo %}
+            <iframe src="https://player.vimeo.com/video/{{ page.vimeo }}" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            {% endif %}
           </div>
         </div>
         <div class="title">

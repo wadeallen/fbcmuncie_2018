@@ -4,7 +4,7 @@ title: The Posture of a Pastor
 date: 2014-02-23
 category: video
 layout: sermon
-video_url: i-Ket9UwBdM
+youtube: i-Ket9UwBdM
 duration: '0:19:25'
 length: 18823498
 ---

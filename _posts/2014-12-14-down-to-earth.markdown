@@ -4,7 +4,7 @@ title: Down to Earth
 date: 2014-12-14
 category: video
 layout: sermon
-video_url: HvWZnSRqsVU
+youtube: HvWZnSRqsVU
 duration: '0:25:16'
 length: 24423934
 ---

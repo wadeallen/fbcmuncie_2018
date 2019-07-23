@@ -4,7 +4,7 @@ title: Ups and Downs
 date: 2015-06-28
 category: video
 layout: sermon
-video_url: 3W4Km4Q58fc
+youtube: 3W4Km4Q58fc
 duration: '0:23:59' 
 length: 23195839
 ---

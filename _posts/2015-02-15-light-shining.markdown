@@ -4,7 +4,7 @@ title: Light Shining
 date: 2015-02-15
 category: video
 layout: sermon
-video_url: NDKwZCvaHzc
+youtube: NDKwZCvaHzc
 duration: '0:30:36'
 length: 29554747
 ---

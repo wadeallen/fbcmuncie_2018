@@ -5,7 +5,7 @@ title: Surprise Blessing
 category: video
 author: Wade Allen
 date: 2012-10-28
-video_url: hoHRgSY8Tfk
+youtube: hoHRgSY8Tfk
 tag: sermon
 duration: '28:00'
 length: 13562642

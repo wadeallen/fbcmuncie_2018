@@ -4,7 +4,7 @@ title: He Has Risen
 date: 2014-04-20
 category: video
 layout: sermon
-video_url: -cJeEnC_Ras
+youtube: -cJeEnC_Ras
 duration: '0:27:07'
 length: 26207465
 ---

@@ -4,7 +4,7 @@ title: Many Gifts One Spirit
 date: 2013-06-02 
 category: video
 layout: sermon
-video_url: w1wMxqFsbcA
+youtube: w1wMxqFsbcA
 duration: '0:35:08'
 length: 33902147
 ---

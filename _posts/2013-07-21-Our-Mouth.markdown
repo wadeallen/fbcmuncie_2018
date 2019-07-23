@@ -4,7 +4,7 @@ title: Our Mouth
 date: 2013-07-21 
 category: video
 layout: sermon
-video_url: kpP7WsYMvmY
+youtube: kpP7WsYMvmY
 duration: '0:29:51'
 length: 28824997 
 ---

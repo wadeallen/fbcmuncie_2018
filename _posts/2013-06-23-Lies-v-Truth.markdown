@@ -4,7 +4,7 @@ title: Lies v Truth
 date: 2013-06-23 
 category: video
 layout: sermon
-video_url: ZvkMN7KEhOg
+youtube: ZvkMN7KEhOg
 duration: '0:30:37'
 length: 29564378
 ---

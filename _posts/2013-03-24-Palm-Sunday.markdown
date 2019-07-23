@@ -4,7 +4,7 @@ title: Palm Sunday
 date: 2013-03-24 
 category: video
 layout: sermon
-video_url: YPMuj_gKbzA
+youtube: YPMuj_gKbzA
 length: 34046543
 duration: '35:17'
 ---

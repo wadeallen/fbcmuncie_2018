@@ -4,7 +4,7 @@ title: Healing a Broken World
 date: 2014-04-06
 category: video
 layout: sermon
-video_url: R_rLnHce_f8
+youtube: R_rLnHce_f8
 duration: '0:34:09'
 length: 32957958
 ---

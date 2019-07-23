@@ -4,7 +4,7 @@ title: Our Secret Sins
 date: 2014-08-24
 category: video
 layout: sermon
-video_url: JMwCG0fEaJM
+youtube: JMwCG0fEaJM
 duration: '0:27:45'
 length: 26810153
 ---

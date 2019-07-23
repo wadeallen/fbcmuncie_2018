@@ -4,7 +4,7 @@ title: Orphans in China
 author: Katy Kessler
 category: video
 date: 2012-11-25
-video_url: _bfGjrX7EoQ
+youtube: _bfGjrX7EoQ
 duration: '23:49'
 length: 11546769
 ---

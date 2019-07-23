@@ -4,7 +4,7 @@ title: Reaching the Poor
 date: 2015-04-19
 category: video
 layout: sermon
-video_url: yhrvB8TiTDw
+youtube: yhrvB8TiTDw
 duration: '0:37:29'
 length: 54159927
 ---

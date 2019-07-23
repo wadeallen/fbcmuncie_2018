@@ -7,7 +7,7 @@ date: 2016-10-30
 layout: sermon
 duration: '0:27:21' 
 length: 39389664
-video_url: buV-w-Mv__U
+youtube: buV-w-Mv__U
 ---
 
 Solomon has a lot to say about anger. Sometimes anger is a firey flash described as a hot-temper. Other times it is a deep wrath or contempt. Perhaps someone has wronged you and you can not let it go. Wisdom informs our understanding of anger; it is the response of the fool.

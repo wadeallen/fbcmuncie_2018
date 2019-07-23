@@ -4,7 +4,7 @@ title: Repentance and Restoration
 date: 2013-03-03 
 category: video
 layout: sermon
-video_url: J6vJK0OWQtM
+youtube: J6vJK0OWQtM
 duration: '32:55'
 length: 15969613
 ---

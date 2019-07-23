@@ -4,7 +4,7 @@ title: Impact
 date: 2015-02-08
 category: video
 layout: sermon
-video_url: 8v5usm181gw
+youtube: 8v5usm181gw
 duration: '0:24:49'
 length: 24001829
 ---

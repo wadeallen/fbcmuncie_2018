@@ -7,7 +7,7 @@ layout: sermon
 category: video
 duration: '0:30:03' 
 length: 43293271
-video_url: V1rvqssbLxE
+youtube: V1rvqssbLxE
 ---
 
 We gathered in a combined service at 10:45 AM on this holiday weekend. Jim Sandberg preached the third sermon in our series over John's first epistle. Jim has preached many times at First Baptist.

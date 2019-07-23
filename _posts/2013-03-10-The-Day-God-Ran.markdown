@@ -4,7 +4,7 @@ title: The Day God Ran
 date: 2013-03-10 
 category: video
 layout: sermon
-video_url: C7mc-94T2SU
+youtube: C7mc-94T2SU
 duration: '27:27'
 length: 13346031
 ---

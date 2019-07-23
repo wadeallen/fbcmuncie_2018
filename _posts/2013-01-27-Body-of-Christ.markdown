@@ -4,7 +4,7 @@ title:  The Body of Christ
 date: 2013-01-27 
 category: video
 layout: sermon
-video_url: l8hY9QEdqBQ 
+youtube: l8hY9QEdqBQ 
 duration: '39:30'
 length: 19129939
 ---

@@ -4,7 +4,7 @@ title: The Unstoppable Growth of the Gospel
 date: 2015-03-22
 category: video
 layout: sermon
-video_url: WKIlS1oLNx8
+youtube: WKIlS1oLNx8
 duration: '0:42:01'
 length: 60672748
 ---

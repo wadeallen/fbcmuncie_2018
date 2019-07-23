@@ -4,7 +4,7 @@ title: Unlikely Hero
 date: 2014-05-04
 category: video
 layout: sermon
-video_url: 1uqbpmfKCwc
+youtube: 1uqbpmfKCwc
 duration: '0:33:57'
 length: 32766788
 ---

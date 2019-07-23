@@ -4,7 +4,7 @@ title: The Perfect Gift
 date: 2013-12-22
 category: video
 layout: sermon
-video_url: Z5h7wY2TPvI
+youtube: Z5h7wY2TPvI
 duration: '0:29:09'
 length: 28168765
 ---

@@ -4,7 +4,7 @@ title: Born of God
 date: 2015-05-10
 category: video
 layout: sermon
-video_url: ZWSs7gQ52Q4
+youtube: ZWSs7gQ52Q4
 duration: '0:22:52'
 length: 22128244
 ---

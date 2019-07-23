@@ -6,7 +6,7 @@ category: video
 layout: sermon
 duration: '0:18:39' 
 length: 27039489
-video_url: -59ZCL-q0Ao
+youtube: -59ZCL-q0Ao
 ---
 
 Our lives are often overwhelmed by the anxiety of our current circumstances. In this Advent season, we are challenged to refocus on the greater realities. As Paul instructed the Philippians church, we must place our anxieties in God's care. As we are able to do this, we will experience a peace that is beyond understanding.

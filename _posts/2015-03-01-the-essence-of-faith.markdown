@@ -4,7 +4,7 @@ title: The Essence of Faith
 date: 2015-03-01
 category: video
 layout: sermon
-video_url: B1sJIUQonMY
+youtube: B1sJIUQonMY
 duration: '0:29:16'
 length: 28271665
 ---

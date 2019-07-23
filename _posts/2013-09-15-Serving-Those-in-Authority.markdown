@@ -4,7 +4,7 @@ title: Serving Those in Authority
 date: 2013-09-15 
 category: video
 layout: sermon
-video_url: bpUjbtsSsRs
+youtube: bpUjbtsSsRs
 duration: '0:29:10'
 length: 28171266
 ---

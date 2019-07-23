@@ -4,7 +4,7 @@ title: King Solomon
 date: 2015-05-31
 category: video
 layout: sermon
-video_url: nJSybhaPLyQ
+youtube: nJSybhaPLyQ
 duration: '0:34:33'
 length: 33350866
 ---

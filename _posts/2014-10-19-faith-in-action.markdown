@@ -4,7 +4,7 @@ title: Faith in Action
 date: 2014-10-19
 category: video
 layout: sermon
-video_url: GUDQpsJ0YLk
+youtube: GUDQpsJ0YLk
 duration: '0:29:41'
 length: 28670453
 ---

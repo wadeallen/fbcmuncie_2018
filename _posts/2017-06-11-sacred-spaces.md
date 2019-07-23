@@ -7,7 +7,7 @@ layout: sermon
 category: video
 duration: '0:34:15' 
 length: 148243161
-video_url: i3SVhAVzEvU
+youtube: i3SVhAVzEvU
 ---
 
 Acts 2:42

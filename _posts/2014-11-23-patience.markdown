@@ -4,7 +4,7 @@ title: Patience
 date: 2014-11-23
 category: video
 layout: sermon
-video_url: NayQMKYsIHg
+youtube: NayQMKYsIHg
 duration: '0:27:48'
 length: 40216072
 ---

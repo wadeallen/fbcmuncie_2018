@@ -4,7 +4,7 @@ title: The Purpose of Patience
 date: 2013-12-15 
 category: video
 layout: sermon
-video_url: WWCYNX9-fVQ
+youtube: WWCYNX9-fVQ
 duration: '0:13:29'
 length: 13121474 
 ---

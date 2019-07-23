@@ -7,7 +7,7 @@ layout: sermon
 category: video
 duration: '0:34:21' 
 length: 174312281
-video_url: 5OQGUaJEGHE
+youtube: 5OQGUaJEGHE
 ---
 
 Amos 5:18-27

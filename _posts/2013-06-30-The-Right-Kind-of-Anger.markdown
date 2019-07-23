@@ -4,7 +4,7 @@ title: The Right Kind of Anger
 date: 2013-06-30
 category: video
 layout: sermon
-video_url: lWODu1li0oo
+youtube: lWODu1li0oo
 duration: '0:30:23'
 length: 29346224 
 ---

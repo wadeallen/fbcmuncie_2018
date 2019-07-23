@@ -4,7 +4,7 @@ title: Giving Thanks
 date: 2015-01-04
 category: video
 layout: sermon
-video_url: txpHX3TFE6I
+youtube: txpHX3TFE6I
 duration: '0:30:46'
 length: 29711258
 ---

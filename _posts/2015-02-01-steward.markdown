@@ -4,7 +4,7 @@ title: Steward
 date: 2015-02-01
 category: video
 layout: sermon
-video_url: zAWw9A4SKEQ
+youtube: zAWw9A4SKEQ
 duration: '0:33:47'
 length: 32614819
 ---

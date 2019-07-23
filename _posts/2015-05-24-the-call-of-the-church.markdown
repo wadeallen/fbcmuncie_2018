@@ -4,7 +4,7 @@ title: The Call of the Church
 date: 2015-05-24
 category: video
 layout: sermon
-video_url: DC6lPL4TpUA
+youtube: DC6lPL4TpUA
 duration: '0:35:14'
 length: 34000528
 ---

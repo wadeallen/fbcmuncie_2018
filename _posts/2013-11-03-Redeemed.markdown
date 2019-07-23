@@ -6,7 +6,7 @@ category: video
 layout: sermon
 duration: '0:35:42'
 length: 34443739
-video_url: _imrTW_mZV4
+youtube: _imrTW_mZV4
 ---
 
 Ruth followed Naomi's plan as she met Boaz on the threshing floor. But she risked it all when she took the request the level of kinsman-redeemer. Boaz would need to get legal clearance for this one. In Ruth 4, Boaz gathers the elders at the city gate. He pursues the redemption of Ruth and Naomi, even if it involves financial risk. Ruth 4:1–12 

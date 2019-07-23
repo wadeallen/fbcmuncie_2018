@@ -4,7 +4,7 @@ title: New Life
 date: 2013-11-10 
 category: video
 layout: sermon
-video_url: _-aeN2E-1-Y
+youtube: _-aeN2E-1-Y
 duration: '0:31:27'
 length: 30366467
 ---

@@ -4,7 +4,7 @@ title: Expectant
 date: 2012-12-09 
 category: video
 layout: sermon 
-video_url: 3ONpBlfNHRY
+youtube: 3ONpBlfNHRY
 duration: '30:32'
 length: 14905122
 ---

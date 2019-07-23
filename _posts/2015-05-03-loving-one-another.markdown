@@ -4,7 +4,7 @@ title: Loving One Another
 date: 2015-05-03
 category: video
 layout: sermon
-video_url: VVGoNPB441I
+youtube: VVGoNPB441I
 duration: '0:26:14'
 length: 25355070
 ---

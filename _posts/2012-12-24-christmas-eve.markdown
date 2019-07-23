@@ -4,7 +4,7 @@ title: Christmas Eve
 worship_date: 2012-12-24
 category: video
 layout: sermon
-video_url: 0sq61hZiU6A
+youtube: 0sq61hZiU6A
 duration: '23:32'
 length: 11471729
 ---

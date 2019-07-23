@@ -4,7 +4,7 @@ title: Hearts Follow Treasure
 date: 2013-02-10 
 category: video
 layout: sermon
-video_url: 5C6WA47A56s
+youtube: 5C6WA47A56s
 duration: '26:08'
 length: 12712071
 ---

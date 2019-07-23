@@ -4,7 +4,7 @@ title: Passion Week
 date: 2014-04-13
 category: video
 layout: sermon
-video_url: QnTnrW5lXt4
+youtube: QnTnrW5lXt4
 duration: '0:32:18'
 length: 31191215
 ---

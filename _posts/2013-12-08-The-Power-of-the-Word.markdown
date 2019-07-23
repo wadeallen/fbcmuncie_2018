@@ -4,7 +4,7 @@ title: The Power of the Word
 date: 2013-12-08 
 category: video
 layout: sermon
-video_url: IwXA-XX-IAM
+youtube: IwXA-XX-IAM
 duration: '0:27:46'
 length: 26839869
 ---

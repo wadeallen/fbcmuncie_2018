@@ -4,7 +4,7 @@ title: Exodus 17
 date: 2014-03-23
 category: video
 layout: sermon
-video_url: vRQFLgBm8uY
+youtube: vRQFLgBm8uY
 duration: '0:27:58'
 length: 27022133
 ---

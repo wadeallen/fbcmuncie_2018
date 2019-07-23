@@ -4,7 +4,7 @@ title: The New Birth
 date: 2014-03-16
 category: video
 layout: sermon
-video_url: 0hyRrmLIPIY
+youtube: 0hyRrmLIPIY
 duration: '0:29:11'
 length: 28198262
 ---

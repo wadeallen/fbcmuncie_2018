@@ -4,7 +4,7 @@ title: Poisoned
 date: 2014-11-02
 category: video
 layout: sermon
-video_url: N-tV3mdh3-A
+youtube: N-tV3mdh3-A
 duration: '0:23:50'
 length: 23052352
 ---

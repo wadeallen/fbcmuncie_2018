@@ -4,7 +4,7 @@ title: Marriage
 date: 2013-09-08 
 category: video
 layout: sermon
-video_url: BzJjGDADDJY
+youtube: BzJjGDADDJY
 duration: '0:28:43'
 length: 27750324
 ---

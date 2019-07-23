@@ -4,7 +4,7 @@ title: Suffering God
 date: 2015-02-22
 category: video
 layout: sermon
-video_url: su9wJGnQ82k
+youtube: su9wJGnQ82k
 duration: '0:32:14'
 length: 31126507
 ---

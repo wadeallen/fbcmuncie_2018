@@ -4,7 +4,7 @@ title: Forgive
 date: 2014-09-21
 category: video
 layout: sermon
-video_url: FWeGR9_JpSg
+youtube: FWeGR9_JpSg
 duration: '0:29:50'
 length: 28822233
 ---

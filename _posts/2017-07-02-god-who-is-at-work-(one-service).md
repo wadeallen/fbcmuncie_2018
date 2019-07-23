@@ -7,7 +7,7 @@ layout: sermon
 category: video
 duration: '0:35:40' 
 length: 105756011
-video_url: 76Lp8sZpNH0
+youtube: 76Lp8sZpNH0
 ---
 
 Isaiah 43:19

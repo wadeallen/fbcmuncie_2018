@@ -4,7 +4,7 @@ title: Broken and Poured Out
 date: 2013-03-17 
 category: video
 layout: sermon
-video_url: qZRTcLBAwAU
+youtube: qZRTcLBAwAU
 length: 16027331
 duration: '33:02'
 ---

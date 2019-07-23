@@ -4,7 +4,7 @@ title: Mary's Song
 date: 2012-12-23
 category: video
 layout: sermon 
-video_url: GvrihlnhZEs
+youtube: GvrihlnhZEs
 duration: '29:00'
 length: 14093208
 ---

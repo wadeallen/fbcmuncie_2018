@@ -7,7 +7,7 @@ date: 2016-11-06
 layout: sermon
 duration: '0:28:58' 
 length: 41732905
-video_url: LAF6HaJQRMU
+youtube: LAF6HaJQRMU
 ---
 
 The bible has a surprising amount to say about money. As we consider the book of Proverbs, we find money described as both a blessing and curse. The rich are considered blessed by God, yet they must be careful to not allow their wealth to press them toward greed, selfishness and pride. Let's consider together what Proverbs has to say about money.

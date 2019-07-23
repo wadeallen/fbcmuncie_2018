@@ -4,7 +4,7 @@ title: The Hour Has Come
 date: 2013-12-01 
 category: video
 layout: sermon
-video_url: h_c497NPS1g
+youtube: h_c497NPS1g
 duration: '0:32:12'
 length: 31090836
 ---

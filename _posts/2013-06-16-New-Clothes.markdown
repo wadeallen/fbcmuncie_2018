@@ -4,7 +4,7 @@ title: New Clothes
 date: 2013-06-16 
 category: video
 layout: sermon
-video_url: Z__T6GW3LxA
+youtube: Z__T6GW3LxA
 duration: '0:31:37'
 length: 30529774
 ---

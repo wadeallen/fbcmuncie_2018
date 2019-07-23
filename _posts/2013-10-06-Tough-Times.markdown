@@ -4,7 +4,7 @@ title: Tough Times
 date: 2013-10-06 
 category: video
 layout: sermon
-video_url: zxaiIPGdv4g
+youtube: zxaiIPGdv4g
 duration: '0:35:19'
 length: 34083998 
 ---

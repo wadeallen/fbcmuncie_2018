@@ -4,7 +4,7 @@ title: Getting Ready
 date: 2014-11-30
 category: video
 layout: sermon
-video_url: f9OcQGCUF9g
+youtube: f9OcQGCUF9g
 duration: '0:28:49'
 length: 27835997
 ---

@@ -4,7 +4,7 @@ title: The Perils of Pride
 date: 2014-09-28
 category: video
 layout: sermon
-video_url: yAJQ6UNL2Rc
+youtube: yAJQ6UNL2Rc
 duration: '0:29:13'
 length: 28218735
 ---

@@ -7,7 +7,7 @@ layout: sermon
 category: video
 duration: '0:27:28' 
 length: 39556635
-video_url: nVEDMPgFX_w
+youtube: nVEDMPgFX_w
 ---
 
 Bill Eidson preached on Joshua during both services on Sunday, October 14.

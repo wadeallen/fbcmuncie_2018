@@ -4,7 +4,7 @@ title: Pastor Celebration Sunday
 date: 2013-05-19 
 category: video
 layout: sermon
-video_url: xnDNsTqgdzU
+youtube: xnDNsTqgdzU
 duration: '0:44:43'
 length: 43111319
 

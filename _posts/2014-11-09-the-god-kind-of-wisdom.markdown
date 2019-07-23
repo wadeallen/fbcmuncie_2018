@@ -4,7 +4,7 @@ title: The God Kind of Wisdom
 date: 2014-11-09
 category: video
 layout: sermon
-video_url: be7tbafLPfs
+youtube: be7tbafLPfs
 duration: '0:27:49'
 length: 40062099
 ---

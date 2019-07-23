@@ -5,7 +5,7 @@ title: The Destiny of Jacob's Sons
 category: video
 author: Wade Allen
 date: 2012-11-04
-video_url: 5Tm8wSpBZyc
+youtube: 5Tm8wSpBZyc
 tag: sermon
 duration: '27:34'
 length: 13358528

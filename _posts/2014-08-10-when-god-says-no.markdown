@@ -4,7 +4,7 @@ title: When God Says No
 date: 2014-08-10
 category: video
 layout: sermon
-video_url: fX138BEiWWs
+youtube: fX138BEiWWs
 duration: '0:26:59'
 length: 26074547
 ---

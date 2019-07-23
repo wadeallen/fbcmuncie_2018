@@ -7,7 +7,7 @@ layout: sermon
 category: video
 duration: '0:29:24' 
 length: 108124666
-video_url: UAGwaWHzqFM
+youtube: UAGwaWHzqFM
 ---
 
 No description yet

@@ -4,7 +4,7 @@ title: Obscenity v Purity
 date: 2013-08-04 
 category: video
 layout: sermon
-video_url: RCREDHxmP90
+youtube: RCREDHxmP90
 duration: '0:26:06'
 length: 25228072 
 ---

@@ -4,7 +4,7 @@ title: To Forbid Jesus
 date: 2014-01-12
 category: video
 layout: sermon
-video_url: Qlsihkn5U8U
+youtube: Qlsihkn5U8U
 duration: '0:29:32'
 length: 28526241
 ---

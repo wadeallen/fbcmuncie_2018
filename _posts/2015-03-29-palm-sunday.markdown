@@ -4,7 +4,7 @@ title: Palm Sunday
 date: 2015-03-29
 category: video
 layout: sermon
-video_url: _nTp0aE5qzc
+youtube: _nTp0aE5qzc
 duration: '0:34:52'
 length: 50376701
 ---

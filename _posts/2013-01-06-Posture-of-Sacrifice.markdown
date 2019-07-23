@@ -4,7 +4,7 @@ title: Posture of Sacrifice
 worship_date: 2013-01-06 
 category: video
 layout: sermon
-video_url: yC5PkMTeX3I
+youtube: yC5PkMTeX3I
 duration: '30:02'
 length: 14584405
 ---

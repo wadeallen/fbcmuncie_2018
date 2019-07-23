@@ -4,7 +4,7 @@ title: Examining The Heart
 date: 2014-02-16
 category: video
 layout: sermon
-video_url: v-cmbHh96OE
+youtube: v-cmbHh96OE
 duration: '0:31:49'
 length: 30720082
 ---

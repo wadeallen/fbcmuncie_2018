@@ -4,7 +4,7 @@ title: God's Wrath
 date: 2013-08-11 
 category: video
 layout: sermon
-video_url: 5Fmf2G1w4bw
+youtube: 5Fmf2G1w4bw
 duration: '0:29:41'
 length: 28675832
 ---

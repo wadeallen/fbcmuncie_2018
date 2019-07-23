@@ -4,7 +4,7 @@ title: Living in the Light
 date: 2013-08-18 
 category: video
 layout: sermon
-video_url: Z1HjZM1hg78
+youtube: Z1HjZM1hg78
 duration: '0:30:02'
 length: 29007621
 ---

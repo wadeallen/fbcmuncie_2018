@@ -4,7 +4,7 @@ title: Stealing v Giving
 date: 2013-07-14 
 category: video
 layout: sermon
-video_url: DKMWDAHEYCc
+youtube: DKMWDAHEYCc
 duration: '0:29:08'
 length: 28146078 
 ---

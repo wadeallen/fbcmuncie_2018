@@ -4,7 +4,7 @@ title: David as King
 date: 2014-07-27
 category: video
 layout: sermon
-video_url: OaRD-IvEWXk
+youtube: OaRD-IvEWXk
 duration: '0:26:47'
 length: 25883691
 ---

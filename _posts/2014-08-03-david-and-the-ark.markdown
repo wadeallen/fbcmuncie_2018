@@ -4,7 +4,7 @@ title: David and the Ark
 date: 2014-08-03
 category: video
 layout: sermon
-video_url: ZnZgLjf04T0
+youtube: ZnZgLjf04T0
 duration: '0:29:51'
 length: 28833425
 ---

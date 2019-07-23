@@ -4,7 +4,7 @@ title: Favoritism
 date: 2014-10-26
 category: video
 layout: sermon
-video_url: n6pAPRfGpTk
+youtube: n6pAPRfGpTk
 duration: '0:32:57'
 length: 31806627
 ---

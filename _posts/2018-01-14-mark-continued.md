@@ -7,7 +7,7 @@ layout: sermon
 category: video
 duration: '0:36:56' 
 length: 53203107
-video_url: fvbiSKppQn0
+youtube: fvbiSKppQn0
 ---
 
 Jim Sandberg will be teaching over Mark 1:21-45 on this second Sunday of our Mark series.

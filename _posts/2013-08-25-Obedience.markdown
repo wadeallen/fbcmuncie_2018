@@ -4,7 +4,7 @@ title: Obedience
 date: 2013-08-25 
 category: video
 layout: sermon
-video_url: bx9Aa66A_5c
+youtube: bx9Aa66A_5c
 duration: '0:29:00'
 length: 28009673 
 ---

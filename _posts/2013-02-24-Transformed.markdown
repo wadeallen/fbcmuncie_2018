@@ -4,7 +4,7 @@ title: Transformed
 date: 2013-02-24 
 category: video
 layout: sermon
-video_url: FxhPB_D_Ylk
+youtube: FxhPB_D_Ylk
 duration: '30:50'
 length: 14971359
 ---

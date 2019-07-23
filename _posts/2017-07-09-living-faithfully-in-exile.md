@@ -7,7 +7,7 @@ layout: sermon
 category: video
 duration: '0:39:48' 
 length: 190253195
-video_url: IAEZnM-oTnI
+youtube: IAEZnM-oTnI
 
 ---
 

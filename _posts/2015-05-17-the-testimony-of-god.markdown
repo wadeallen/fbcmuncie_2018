@@ -4,7 +4,7 @@ title: The Testimony of God
 date: 2015-05-17
 category: video
 layout: sermon
-video_url: gvy6hjocfj4
+youtube: gvy6hjocfj4
 duration: '0:28:12'
 length: 27247439
 ---

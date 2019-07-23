@@ -4,7 +4,7 @@ title: A Father's Instructions
 date: 2015-06-07
 category: video
 layout: sermon
-video_url: u1tg9o29090
+youtube: u1tg9o29090
 duration: '0:23:59'
 length: 23199530
 ---

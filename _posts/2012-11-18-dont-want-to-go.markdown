@@ -5,7 +5,7 @@ title: The Story of Jonah
 category: video
 author: Wade Allen
 date: 2012-11-18
-video_url: jDfXRSFNCGE
+youtube: jDfXRSFNCGE
 published: true
 tag: sermon
 duration: '16:10'

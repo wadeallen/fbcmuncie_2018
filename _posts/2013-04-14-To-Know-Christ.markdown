@@ -4,7 +4,7 @@ title: To Know Christ
 date: 2013-04-14 
 category: video
 layout: sermon
-video_url: xAyCtUKpa3w
+youtube: xAyCtUKpa3w
 duration: '0:31:35'
 length: 30496035 
 ---

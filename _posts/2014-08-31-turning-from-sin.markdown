@@ -4,7 +4,7 @@ title:  Turning From Sin
 date: 2014-08-31
 category: video
 layout: sermon
-video_url: 3yjn0Cgm8L4
+youtube: 3yjn0Cgm8L4
 duration: '0:33:22'
 length: 32203896
 ---

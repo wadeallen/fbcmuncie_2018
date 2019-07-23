@@ -4,7 +4,7 @@ title: Valley of Shadows
 date: 2014-06-22
 category: video
 layout: sermon
-video_url: k2vJm-7ff_s
+youtube: k2vJm-7ff_s
 duration: '0:27:41'
 length: 26755058
 ---

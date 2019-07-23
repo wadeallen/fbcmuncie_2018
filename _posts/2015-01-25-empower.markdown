@@ -4,7 +4,7 @@ title: Empower
 date: 2015-01-25
 category: video
 layout: sermon
-video_url: _X8cFK0i11A
+youtube: _X8cFK0i11A
 duration: '0:25:24'
 length: 24558653
 ---

@@ -4,7 +4,7 @@ title: Final Words in Ephesians
 date: 2013-09-29
 category: video
 layout: sermon
-video_url: X0QB-l_VO5k
+youtube: X0QB-l_VO5k
 duration: '0:39:57'
 length: 38527485 
 ---

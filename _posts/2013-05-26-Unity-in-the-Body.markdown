@@ -4,7 +4,7 @@ title: Unity in the Body
 date: 2013-05-26 
 category: video
 layout: sermon
-video_url: Ehowj-EPuUk
+youtube: Ehowj-EPuUk
 duration: '0:27:07'
 length: 26211294
 ---

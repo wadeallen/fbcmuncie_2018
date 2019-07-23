@@ -4,7 +4,7 @@ title: Grace and Guilt
 date: 2015-06-14
 category: video
 layout: sermon
-video_url: 80ZsrUUxBe4
+youtube: 80ZsrUUxBe4
 duration: '0:30:08' 
 length: 29102409
 ---

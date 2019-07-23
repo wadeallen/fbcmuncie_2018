@@ -4,7 +4,7 @@ title: Prepare the Way
 date: 2014-12-07
 category: video
 layout: sermon
-video_url: 67ReDCEwTko
+youtube: 67ReDCEwTko
 duration: '0:26:35'
 length: 25698829
 ---

@@ -4,7 +4,7 @@ title: Jonah
 date: 2015-07-05
 category: video
 layout: sermon
-video_url: p9MfZdsVfbY
+youtube: p9MfZdsVfbY
 duration: '0:39:45' 
 length: 57251230
 ---

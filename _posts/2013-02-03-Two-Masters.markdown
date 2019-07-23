@@ -4,7 +4,7 @@ title: Two Masters
 date: 2013-02-03 
 category: video
 layout: sermon
-video_url: iCiNtrKL7mA
+youtube: iCiNtrKL7mA
 duration: '29:34'
 length: 14359717
 ---

@@ -4,7 +4,7 @@ title: Living In God's Will
 date: 2013-09-01 
 category: video
 layout: sermon
-video_url: OdHvrKtTwbU
+youtube: OdHvrKtTwbU
 duration: '0:28:23'
 length: 27429802
 ---

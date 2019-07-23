@@ -4,7 +4,7 @@ title: The Word of the Cross
 date: 2015-03-08
 category: video
 layout: sermon
-video_url: 8UCnwIOyaIo
+youtube: 8UCnwIOyaIo
 duration: '0:26:56'
 length: 26024015
 ---

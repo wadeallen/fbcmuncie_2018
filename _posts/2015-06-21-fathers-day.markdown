@@ -4,7 +4,7 @@ title: Good Dad, Bad Dad, No Dad
 date: 2015-06-21
 category: video
 layout: sermon
-video_url: ba-2ySkneDo
+youtube: ba-2ySkneDo
 duration: '0:34:34' 
 length: 33354661
 ---

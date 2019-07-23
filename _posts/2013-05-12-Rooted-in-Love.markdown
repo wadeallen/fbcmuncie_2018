@@ -4,7 +4,7 @@ title: Rooted in Love
 date: 2013-05-12 
 category: video
 layout: sermon
-video_url: qIQMaApgEhQ
+youtube: qIQMaApgEhQ
 duration: '0:29:59'
 length: 28955105
  

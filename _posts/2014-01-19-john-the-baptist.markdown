@@ -4,7 +4,7 @@ title: John the Baptist
 date: 2014-01-19
 category: video
 layout: sermon
-video_url: ATBoRzzAvgA
+youtube: ATBoRzzAvgA
 duration: '0:35:43'
 length: 34466728
 ---

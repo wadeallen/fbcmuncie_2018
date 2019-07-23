@@ -4,7 +4,7 @@ title: Tests and Trials
 date: 2014-10-12
 category: video
 layout: sermon
-video_url: oK48CMbsuKY
+youtube: oK48CMbsuKY
 duration: '0:31:01'
 length: 29956100
 ---

@@ -5,7 +5,7 @@ scripture: "Various Passages"
 date: "2019-07-21"
 layout: sermon
 category: video
-duration: '0:22:09' 
+duration: '0:22:09'
 length: 31917150
 vimeo: 349714058
 ---

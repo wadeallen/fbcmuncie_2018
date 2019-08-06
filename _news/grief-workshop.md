@@ -1,5 +1,5 @@
 ---
-title: Grief Workshop Begins August 6
+title: Grief Workshop
 weight: 3
 ---
 

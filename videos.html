@@ -16,7 +16,11 @@ description: Sermon Videos from First Baptist Church
         <div class="col-md-4">
           <div class="service">
             <div class="pic">
-               {% capture picture-file %}images/sermon/{{ post.date | date: "%Y-%m-%d" }}.jpg{% endcapture %}
+                {% if sunday.vimeo %}
+                {% capture picture-file %}images/vimeo/{{ sunday.date | date: "%Y-%m-%d" }}.jpg{% endcapture %}
+                {% else %}
+                {% capture picture-file %}images/sermon/{{ sunday.date | date: "%Y-%m-%d" }}.jpg{% endcapture %}
+                {% endif %}
            <a href="{{ post.url }}"><img src="{{ picture-file }}" class="img-fluid" alt="services1" /></a>
             </div>
         <div class="info">

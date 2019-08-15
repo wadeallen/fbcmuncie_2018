@@ -6,4 +6,4 @@ weight: 2
 6:00 PM Praise Team. Interested in playing an instrument or singing at second service? Please contact Clifton Davis.
 
 
-The first adult choir rehearsal and handbell rehearsal for the new season will be **Wednesday, September 4**. We need new members in the choir, especially sopranos and tenors. If interested, please contact Bruce McFarland. If you are interested in playing handbells, please contact Barbara Eidson or Dana Davis. Former and new members are welcome.
+The first adult choir rehearsal for the new season will be **Wednesday, September 4, 7:30-8:45 PM** in the choir room on the second floor. We need new members, as it turns out, in all sections! We did well last year. Please help us continue! If interested, please contact Bruce McFarland or just come on the 4th.

@@ -1,6 +1,6 @@
 ---
 author: "Wade Allen"
-title: "Evil is Ugly"
+title: "Evil Is Ugly"
 scripture: "Revelation 9"
 date: "2019-09-15"
 ---

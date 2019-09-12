@@ -27,17 +27,22 @@ permalink: youth
 					      {% endif%} 
 					      {% if week.sunday_school == "yes" %}
 					        <td>9:15 AM</td>
-					        <td>with {{ week.teacher }}</td>
+					        <td>Sunday School with {{ week.teacher }}</td>
 					      {% endif%} 
+					      {% if week.sunday_school == "no" %}
+					      <td></td>
+					      <td>No Sunday School</td>
+					      {% endif %}
+					      {% if week.sunday_school == "pending" %}
+					      <td></td>
+					      <td>To Be Determined</td>
+					      {% endif %}
 				    </tr>
 				    {% endfor %}
 				  </tbody>
 			</table>
 			{% for week in site.data.youth %}
 			<p class="mt-3">
-				{% if week.sunday_school == "yes" %} Sunday School at 9:15 AM with {{ week.teacher }}. {% endif %} 
-				{% if week.sunday_school == "no" %} No Sunday School. {% endif %}
-				{% if week.sunday_school == "pending" %} To Be Determined. {% endif %} 
 				{% if week.home == "yes" %} We will be meeting at the home of {{ week.location }} at {{ week.home_time }} for a light dinner, games and speaker. {% endif %}
 				{% if week.home == "pending" %} Afternoon home group with light dinner, games and speaker. Location and time to be determined. {% endif %}
 			</p>

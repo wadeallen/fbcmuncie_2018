@@ -41,12 +41,12 @@ permalink: youth
 				    {% if week.home == "yes" %} 
 					    <th scope="row"></th>
 					    <td>{{ week.home_time }}</td>
-					    <td>We will be meeting at the home of {{ week.location }} at  for a light dinner, games and speaker.</td>
+					    <td>We will be meeting at the home of</br>{{ week.location }}</br>  for a light dinner, games and speaker.</td>
 				    {% endif %}
 				    {% if week.home == "pending" %} 
 					    <th scope="row"></th>
 					    <td>TBD</td>
-					    <td>Afternoon home group with light dinner, games and speaker. Location and time to be determined.</td>
+					    <td>Afternoon home group with light dinner,</br> games and speaker. Location and time TBD.</td>
 				    {% endif %}
 				    {% endfor %}
 				  </tbody>

@@ -16,7 +16,7 @@ permalink: youth
 			{% for week in site.data.youth %}
 			{% if week.fellowship_fifth == "yes" %}
 			<p class="mt-3">{{ week.date }}, is a fifth Sunday fellowship. {{ fifth_description }}</p>
-			{% elsif %}
+			{% endif%}
 			<p class="mt-3">On {{ week.date }}, </p>
 			{% endfor %}
 		</div>

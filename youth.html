@@ -19,11 +19,15 @@ permalink: youth
 				  </thead>
 				    <tbody>
 				    {% for week in site.data.youth %}
-				    <tr>
+				     <tr>
 				      <th scope="row">{{ week.date }}</th>
 					      {% if week.fellowship_fifth == "yes" %}
-						      <td>{{ week.fifth_time }}</td>
-						      <td>Fellowship of the Fifth. {{ week.fifth_description }}</td>
+						   <td>{{ week.fifth_time }}</td>
+						   <td>Fellowship of the Fifth. {{ week.fifth_description }}</td>
+					      {% endif%} 
+					      {% if week.sunday_school == "yes" %}
+					        <td>9:15 AM</td>
+					        <td>with {{ week.teacher }}</td>
 					      {% endif%} 
 				    </tr>
 				    {% endfor %}

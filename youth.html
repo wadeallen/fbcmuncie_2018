@@ -9,10 +9,26 @@ permalink: youth
 		<div class="header text-center">
 			<h2>{{ page.title }}</h2>
 		<p class="mt-3">The youth ministry at First Baptist takes a family based approach. The youth ministry is committed to the reality that young people are an integral part of our church community.</p>
+			<table class="table table-striped">
+				  <thead>
+				    <tr>
+				      <th>Date</th>
+				      <th>Time</th>
+				      <th>Description</th>
+				    </tr>
+				  </thead>
+				    <tbody>
+				    <tr>
+				      <td>Mark</td>
+				      <td>Otto</td>
+				      <td>@mdo</td>
+				    </tr>
+				  </tbody>
+			</table>
 			{% for week in site.data.youth %}
 			<p class="mt-3">{{ week.date }} - 
 				{% if week.fellowship_fifth == "yes" %} Fellowship of the Fifth. {{ week.fifth_description }} {% endif%} 
-				{% if week.sunday_school == "yes" %} Sunday School at 9:15 AM. {{ week.teacher }} will be teaching. {% endif %} 
+				{% if week.sunday_school == "yes" %} Sunday School at 9:15 AM with {{ week.teacher }}. {% endif %} 
 				{% if week.sunday_school == "no" %} No Sunday School. {% endif %}
 				{% if week.sunday_school == "pending" %} To Be Determined. {% endif %} 
 				{% if week.home == "yes" %} We will be meeting at the home of {{ week.location }} at {{ week.home_time }} for a light dinner, games and speaker. {% endif %}

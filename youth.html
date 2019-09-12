@@ -22,9 +22,8 @@ permalink: youth
 				    <tr>
 				      <th scope="row">{{ week.date }}</th>
 					      {% if week.fellowship_fifth == "yes" %}
-						      <td>Fellowship of the Fifth</td>
 						      <td>{{ week.fifth_time }}</td>
-						      <td>{{ week.fifth_description }}</td>
+						      <td>Fellowship of the Fifth. {{ week.fifth_description }}</td>
 					      {% endif%} 
 				    </tr>
 				    {% endfor %}

@@ -14,7 +14,7 @@ permalink: youth
 		<div class="header text-center">
 			<h2>Youth Ministry Schedule</h2>
 			{% for week in site.data.youth %}
-			<p class="mt-3">On {{ youth.date }}, we will {{youth.fellowship_fifth}}</p>
+			<p class="mt-3">On {{ week.date }}, we will {{week.fellowship_fifth}}</p>
 			{% endfor %}
 		</div>
 

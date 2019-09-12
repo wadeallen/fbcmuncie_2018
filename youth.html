@@ -18,35 +18,39 @@ permalink: youth
 				    </tr>
 				  </thead>
 				    <tbody>
+				    {% capture now %}{{'now' | date: '%s' | plus: 0 %}}{% endcapture %}
 				    {% for week in site.data.youth %}
-				     <tr>
-				      <th scope="row">{{ week.date | date: '%b %d' }}</th>
-					      {% if week.fellowship_fifth == "yes" %}
-						   <td>{{ week.fifth_time }}</td>
-						   <td>Fellowship of the Fifth</br>{{ week.fifth_description }}</td>
-					      {% endif%} 
-					      {% if week.sunday_school == "yes" %}
-					        <td>9:15 AM</td>
-					        <td>Sunday School with {{ week.teacher }}</td>
-					      {% endif%} 
-					      {% if week.fellowship_fifth == "no" and week.sunday_school == "no" %}
-					      <td></td>
-					      <td>No Sunday School</td>
-					      {% endif %}
-					      {% if week.sunday_school == "pending" %}
-					      <td></td>
-					      <td>To Be Determined</td>
-					      {% endif %}
-				    </tr>
-				    {% if week.home == "yes" %} 
-					    <th scope="row"></th>
-					    <td>{{ week.home_time }}</td>
-					    <td>We will be meeting at the home of</br>{{ week.location }}</br>  for a light dinner, games and speaker.</td>
-				    {% endif %}
-				    {% if week.home == "pending" %} 
-					    <th scope="row"></th>
-					    <td>TBD</td>
-					    <td>Afternoon home group with light dinner,</br> games and speaker. Location and time TBD.</td>
+				    	{% capture date %}{{week.date | date: '%s' | plus: 0 %}}{% endcapture %}
+				    	{% if date > now %}
+						     <tr>
+						      <th scope="row">{{ week.date | date: '%b %d' }}</th>
+							      {% if week.fellowship_fifth == "yes" %}
+								   <td>{{ week.fifth_time }}</td>
+								   <td>Fellowship of the Fifth</br>{{ week.fifth_description }}</td>
+							      {% endif%} 
+							      {% if week.sunday_school == "yes" %}
+							        <td>9:15 AM</td>
+							        <td>Sunday School with {{ week.teacher }}</td>
+							      {% endif%} 
+							      {% if week.fellowship_fifth == "no" and week.sunday_school == "no" %}
+							      <td></td>
+							      <td>No Sunday School</td>
+							      {% endif %}
+							      {% if week.sunday_school == "pending" %}
+							      <td></td>
+							      <td>To Be Determined</td>
+							      {% endif %}
+						    </tr>
+					    {% if week.home == "yes" %} 
+						    <th scope="row"></th>
+						    <td>{{ week.home_time }}</td>
+						    <td>We will be meeting at the home of</br>{{ week.location }}</br>  for a light dinner, games and speaker.</td>
+					    {% endif %}
+					    {% if week.home == "pending" %} 
+						    <th scope="row"></th>
+						    <td>TBD</td>
+						    <td>Afternoon home group with light dinner,</br> games and speaker. Location and time TBD.</td>
+					    {% endif %}
 				    {% endif %}
 				    {% endfor %}
 				  </tbody>

@@ -18,11 +18,13 @@ permalink: youth
 				    </tr>
 				  </thead>
 				    <tbody>
+				    {% for week in site.data.youth %}
 				    <tr>
 				      <td>Mark</td>
 				      <td>Otto</td>
 				      <td>@mdo</td>
 				    </tr>
+				    {% endfor %}
 				  </tbody>
 			</table>
 			{% for week in site.data.youth %}

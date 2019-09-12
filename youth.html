@@ -22,16 +22,17 @@ permalink: youth
 				     <tr>
 				      <th scope="row">{{ week.date }}</th>
 					      {% if week.fellowship_fifth == "yes" %}
-						    <td>{{ week.fifth_time }}</td>
-						    <td>Fellowship of the Fifth. {{ week.fifth_description }}</td>
-						   {% elif week.sunday_school == "no" %}
-						     <td></td>
-					         <td>No Sunday School</td>
+						   <td>{{ week.fifth_time }}</td>
+						   <td>Fellowship of the Fifth. {{ week.fifth_description }}</td>
 					      {% endif%} 
 					      {% if week.sunday_school == "yes" %}
 					        <td>9:15 AM</td>
 					        <td>Sunday School with {{ week.teacher }}</td>
 					      {% endif%} 
+					      {% if week.sunday_school == "no" %}
+					      <td></td>
+					      <td>No Sunday School</td>
+					      {% endif %}
 					      {% if week.sunday_school == "pending" %}
 					      <td></td>
 					      <td>To Be Determined</td>

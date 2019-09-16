@@ -24,11 +24,15 @@ description: Podcast and Sermon Videos from First Baptist Church
     </div>
     <div class="services">
       <div class="row">
-       {% for post in site.categories.video limit:9  %}
+       {% for post in site.categories.video limit:15  %}
         <div class="col-md-4">
           <div class="service">
             <div class="pic">
-              {% capture picture-file %}images/sermon/{{ post.date | date: "%Y-%m-%d" }}.jpg{% endcapture %}
+          {% if post.vimeo %}
+                {% capture picture-file %}images/vimeo/{{ post.date | date: "%Y-%m-%d" }}.jpg{% endcapture %}
+          {% else %}
+                {% capture picture-file %}images/sermon/{{ post.date | date: "%Y-%m-%d" }}.jpg{% endcapture %}
+          {% endif %}
            <a href="{{ post.url }}"><img src="{{ picture-file }}" class="img-fluid" alt="{{ post.title }}" /></a>
             </div>
         <div class="info">

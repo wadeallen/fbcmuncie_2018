@@ -4,6 +4,3 @@ weight: 3
 ---
 
 Families are invited to join us for Trunk or Treat night at the church on **Saturday, October 26** from **4:30 to 5:30 PM**! To make this event possible, we are in need of several people to volunteer their "trunks" for this event. Vehicle participants may choose to decorate their car trunks and pass out candy to the kids. If you want, you can decorate your trunk according to a theme (Pinterest is full of ideas!) and even wear a costume that goes with it (completely optional)! We do ask that all costumes be kid friendly. In order for the families of small kids to enjoy this event, we’re asking for several people (youth are welcome to help too!) to volunteer their car for the evening. If you're unable to host a trunk but still want to help, we are in need of candy donations! Please drop off any candy donations in the church office by October 20. In case of inclement weather, we will bring the trick-or-treating inside the church. Please see Britney Sue or anyone on the children’s team if you’re interested in being a vehicle participant. This was a very successful event last year, and we are looking forward to another fun evening this year!
-
-
-________________

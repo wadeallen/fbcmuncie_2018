@@ -23,7 +23,9 @@ shirts and pants; pillowcase dress (loose-fitting sundress); underwear; shoes an
 pencils; small manual pencil sharpener; colored pencils; pencil case; pens; crayons; markers; coloring pads; coloring books; picture book; notebooks; glue stick (Do not include liquid glue.); small adhesive tape; watercolor set [Finger paint palette/crayons/markers (non-liquid containers), paint brushes, canvas or paper]; building blocks; playdough (Consider adding plastic cookie cutters as non-sharp utensils the child can use with the playdough.); stickers; puzzles; binoculars; compass; chalkboard with chalk; tool set with work gloves; fishing kit; brightly colored rope or twine; gardening kit with gloves and trowel (no seeds); magnets; kaleidoscope; skipping rope/jump rope; playing cards; marbles
  
 ## Toys   
-foam ball; kickball (Make sure to include a manual air pump so that the ball can be reinflated.); tennis ball; finger puppets; slinky; Etch A Sketch; play cars/trucks/boats, plastic tools; plastic dinosaurs; interactive toys that include push buttons, lights, noise (include extra batteries); baseball and mitt; tennis ball; yo-yo; small Frisbee; small kite; hacky sack; toy cars
+foam ball; kickball (Make sure to include a manual air pump so that the ball can be reinflated.); tennis ball; finger puppets; slinky; Etch A Sketch; play cars/trucks/boats, plastic tools; plastic dinosaurs; interactive toys that include push buttons, lights, noise (include extra batteries); baseball and mitt; tennis ball; yo-yo; small Frisbee; small kite; hacky sack; toy cars   
+
+
 ## A Personal Note  
 You may enclose a note to the child and a photo of yourself, your family, or group. If you include your name and an address, the child may be able to write back.
 

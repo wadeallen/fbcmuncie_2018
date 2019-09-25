@@ -1,5 +1,5 @@
 ---
-title: Joining God in the Neighborhood Digging Deeper Update
+title: Joining God in the Neighborhood Update
 weight: 3
 ---
 
@@ -18,10 +18,10 @@ We at FBC have several opportunities to share our care. We have seven opportunit
 
 
 - Collect pop tabs for McDonalds House / Colleen Massoth
-- Contribute or help put together Christmas boxes / Jane Patton / November 3
+- Contribute or help put together Christmas boxes / Jane Patton 
 - Bring in toiletries and cleaning supplies for the YWCA women / Mary Anne Bayer
-- Hearts and Hands coat collections/ Colleen Massoth / November 3[b][c]
+- Hearts and Hands coat collections/ Colleen Massoth
 - Meals for Men’s sleeping room / Mary VanDeventer & Patti Warner once a month from October through April
-- America for Christ offering in October / Mary Anne Bayer
+- World Mission offering in October / Mary Anne Bayer
 - Ringing Salvation Army Bells / Sue Mutter  
 Check out the bulletin board on the main level for information.

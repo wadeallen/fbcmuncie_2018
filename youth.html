@@ -37,7 +37,7 @@ permalink: youth
 							      {% if week.fellowship_fifth == "no" and week.sunday_school == "no" %}
 							      <td></td>
 							       <!-- sunday school no -->
-							      <td>No Sunday School {%if week.service_description %}. week.service_description {% endif %}</td>
+							      <td>No Sunday School {%if week.service_description %}. {{ week.service_description }} {% endif %}</td>
 							      {% endif %}
 							      {% if week.sunday_school == "pending" %}
 							      <td></td>

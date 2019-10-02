@@ -14,7 +14,7 @@ This summer we explored many wonderful ministries in our neighborhood. In August
 
 
 
-We at FBC have several opportunities to share our care. We have seven opportunities coming up now, and each of you can choose at least one in which to participate. 
+We at FBC have several opportunities to share our care. We have seven opportunities going on now throught the end of the year. Each of you can choose at least one in which to participate. 
 
 
 - Collect pop tabs for McDonalds House / Colleen Massoth

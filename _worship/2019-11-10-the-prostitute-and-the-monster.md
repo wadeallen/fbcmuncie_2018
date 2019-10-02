@@ -1,6 +1,6 @@
 ---
 author: "Wade Allen"
-title: "The Whore and the Monster"
+title: "The Prostitute and the Monster"
 scripture: "Revelation 17"
 date: "2019-11-10"
 ---

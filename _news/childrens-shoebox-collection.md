@@ -3,7 +3,7 @@ title: Children's Shoebox Collection
 weight: 3
 ---
 
-The children’s team is collecting items to fill shoeboxes for Operation Christmas Child.  Please drop off your items in the designated boxes in the church office.  The deadline to donate is **November 10**.  Here are some ideas of what to donate:   
+The children’s team is collecting items to fill shoeboxes for Operation Christmas Child. Please drop off your items in the designated boxes in the church office. The deadline to donate is **November 10**. Here are some ideas of what to donate:   
 
 
 

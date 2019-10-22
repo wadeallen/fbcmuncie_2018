@@ -1,6 +1,6 @@
 ---
 author: "Wade Allen"
-title: "Victory over Evil"
+title: "Victory Over Evil"
 scripture: "Revelation 19"
 date: "2019-12-01"
 ---

@@ -5,7 +5,7 @@ scripture: Jeremiah 7:1-11
 date: 2018-11-25
 layout: sermon
 category: video
-duration: '0:34:14' 
+duration: '0:34:14'
 length: 49311332
 youtube: xdjHVOP393Y
 ---

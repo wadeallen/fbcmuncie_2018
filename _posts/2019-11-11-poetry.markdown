@@ -1,6 +1,6 @@
 ---
 author: Wade Allen
-title: 
+title: Poetry
 date: 2019-11-11
 category: blog
 layout: blog

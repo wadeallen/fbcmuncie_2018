@@ -1,5 +1,5 @@
 ---
-title: Church Business Meeting in December
+title: Church Business Meeting
 weight: 2
 ---
 

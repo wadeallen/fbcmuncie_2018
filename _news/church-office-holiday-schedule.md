@@ -3,4 +3,4 @@ title: Church Office Holiday Schedule
 weight: 2
 ---
 
-The church office will be closed during the weeks of Christmas and New Years, December 23-January 3. The office will resume normal hours on Monday, January 6.
+The church office will be closed during the weeks of Christmas and New Year’s, December 23–January 3. The office will resume normal hours on Monday, January 6.

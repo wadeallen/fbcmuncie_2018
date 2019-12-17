@@ -1,0 +1,20 @@
+---
+title: Focusing on Food-Related Needs in 2020
+weight: 3
+---
+
+*By MaryAnne Bayer, Outreach Ministries*
+In July, around 50 people in our church participated in Joining God in the Neighborhood: Digging Deeper.  It was a chance for everyone to look at most of the services within a half mile radius of our church and see what services are out there, how the need was identified and programs established.  We also saw how the efforts operate to maintain these activities in our community.  
+ 
+In our moving forward to see where God is calling First Baptist to serve, it may be important to start at the bottom of Maslow’s Hierarchy of Needs.  The lowest platform is Physiology Needs:  air, water, food, rest, health..  We cannot simply encourage struggling people to invite Christ into their lives or to move up the ladder of needs to help them to find more affordable housing or to get a job or build a budget.  It is our responsibilities as Christians to be concerned whether their basic needs are being met and how we can help.  
+ 
+Last summer, we examined several organizations whose work relates to providing food:  1) Christian Ministries provides colder season suppers to the men in the sleeping room as well as a food pantry, 2) Grace Episcopal Church serves a Sunday afternoon meal, 3) Muncie Soup Kitchen serves a hot lunch and a sack supper M-F each week, 4) Main Street Methodist Church, a ministry of Gethsemane at the Garden Church, serves a Sunday lunch meal, 4) Friends Church runs a food pantry, and 5) Blood ‘n Fire has a food pantry and a Saturday evening meal, and 6)Forward STEPS (formerly TEAMwork for Quality Living) serves a weekly meal on Thursday nights in our Lower Auditorium.   
+ 
+In 2020, the Outreach Team will divide the year in thirds and concentrate each four-month period on particular ministries, all the while learning and sharing about food insecurity, free and reduced lunch rates in our schools, grocery desserts and who actually comes to receive food and why. 
+In July, around 50 people in our church participated in Joining God in the Neighborhood: Digging Deeper.  It was a chance for everyone to look at most of the services within a half mile radius of our church and see what services are out there, how the need was identified and programs established.  We also saw how the efforts operate to maintain these activities in our community.  
+ 
+In our moving forward to see where God is calling First Baptist to serve, it may be important to start at the bottom of Maslow’s Hierarchy of Needs.  The lowest platform is Physiology Needs:  air, water, food, rest, health..  We cannot simply encourage struggling people to invite Christ into their lives or to move up the ladder of needs to help them to find more affordable housing or to get a job or build a budget.  It is our responsibilities as Christians to be concerned whether their basic needs are being met and how we can help.  
+ 
+Last summer, we examined several organizations whose work relates to providing food:  1) Christian Ministries provides colder season suppers to the men in the sleeping room as well as a food pantry, 2) Grace Episcopal Church serves a Sunday afternoon meal, 3) Muncie Soup Kitchen serves a hot lunch and a sack supper M-F each week, 4) Main Street Methodist Church, a ministry of Gethsemane at the Garden Church, serves a Sunday lunch meal, 4) Friends Church runs a food pantry, and 5) Blood ‘n Fire has a food pantry and a Saturday evening meal, and 6)Forward STEPS (formerly TEAMwork for Quality Living) serves a weekly meal on Thursday nights in our Lower Auditorium.   
+ 
+In 2020, the Outreach Team will divide the year in thirds and concentrate each four-month period on particular ministries, all the while learning and sharing about food insecurity, free and reduced lunch rates in our schools, grocery desserts and who actually comes to receive food and why.

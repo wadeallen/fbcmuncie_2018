@@ -1,7 +1,7 @@
 ---
 author: "Wade Allen"
 title: "Urbanized Eden"
-scripture: "Revelation 21:22-22:21"
+scripture: "Revelation 21:22-22:7"
 date: "2019-12-22"
 ---
 

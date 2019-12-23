@@ -1,5 +1,5 @@
 ---
-title: Easter Show Sign Up
+title: Easter Show Sign-Up
 weight: 3
 ---
 

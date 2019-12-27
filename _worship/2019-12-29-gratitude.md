@@ -1,6 +1,6 @@
 ---
 author: "Troy Hershman"
-title: "Ten Lepers"
+title: "Gratitude"
 scripture: "Luke 17:11-19"
 date: "2019-12-29"
 ---

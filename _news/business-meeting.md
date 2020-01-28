@@ -1,5 +1,5 @@
 ---
-title: Business Meeting in February
+title: Business Meeting
 weight: 2
 ---
 
